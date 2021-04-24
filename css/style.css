@@ -64,3 +64,9 @@ footer a {
 #lastmodified {
     color: yellow;
 }
+
+@media screen and (max-width: 550px) {
+    header {
+        padding: 0px;
+    }
+}
