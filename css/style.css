@@ -67,6 +67,7 @@ footer a {
 
 @media screen and (max-width: 550px) {
     header {
+        font-size: 30px;
         padding: 0px 0px 0px 12px;
     }
 }
