@@ -21,10 +21,7 @@ header {
 
 main {
     color: #1b1127;
-    margin-top: 8px;
-    margin-right: 21px;
-    margin-bottom: 25px;
-    margin-left: 20px;
+    margin: 8px 21px 25px 20px;
 }
 
 main h2 {
