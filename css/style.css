@@ -16,13 +16,14 @@ header img {
 
 header {
     font-size: 40px;
-    padding-left: 189px;
+    padding-left: 199px;
 }
 
 main {
     color: #1b1127;
-    margin-bottom: 20px;
+    margin-top: 8px;
     margin-right: 21px;
+    margin-bottom: 25px;
     margin-left: 20px;
 }
 
