@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 body {
     font-size: 16px;
     background-color: #fafafa;
-    font-family: Montserrat, Verdana, sans-serif;
+    font-family: 'Inter', 'Open Sans', sans-serif;
     margin: 20px 20px 20px 20px;
 }
 
