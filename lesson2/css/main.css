@@ -1,0 +1,160 @@
+body {
+    background-color: #fcefd8;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    margin: 20px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 15px 0px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+h3 {
+    letter-spacing: 1px;
+    background-color: #55493b;
+    color: #fafafa;
+    margin: 0px;
+    padding: 10px 10px 10px 21px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #1b1127;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #1b1127;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+header {
+    padding: 10px 0px 14px 0px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+header, footer {
+    text-align: center;
+    background-color: #55493b;
+    color: #fafafa;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.2em;
+    margin: 10px 0px 0px 0px;
+}
+
+header, main, footer {
+    max-width: 1980px;
+}
+
+main section {
+    background-color: #fafafa;
+    border-top: 0px;
+    border-right: 1px solid #bda890;
+    border-bottom: 0px;
+    border-left: 1px solid #bda890;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section {
+    padding: 0px 0px 40px 0px;
+}
+
+.image-1 {
+    margin: 5px 20px 20px 20px;
+    box-shadow: 2.5px 5px 9px #888888;
+}
+
+.image-2 {
+    margin: 5px 20px 20px 20px;
+    box-shadow: 2.5px 5px 9px #888888;
+}
+
+.image-3 {
+    margin: 5px 20px 20px 20px;
+    box-shadow: 2.5px 5px 9px #888888;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.1;
+    color: #fafafa;
+}
+
+footer {
+    display: block;
+    font-size: 14px;
+    color: #fcefd8;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header, footer {
+        border-radius: 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    main section {
+        border-bottom: 1px solid #bda890;
+    }
+
+    main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		display: none
+	}
+}
+
+@media (max-width: 767px) {
+    header, footer {
+        border-radius: 0;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    h1 {
+        line-height: 1.4;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main section {
+        border-bottom: 1px solid #bda890;
+    }
+    
+    footer p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
