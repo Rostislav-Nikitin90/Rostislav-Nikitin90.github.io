@@ -18,6 +18,10 @@ h2 {
     margin: 10px 0px;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 h3 {
     letter-spacing: 1px;
     background-color: #55493b;
@@ -47,8 +51,26 @@ header {
     border-radius: 10px 10px 0px 0px; 
 }
 
-header, footer {
+.home-page-button {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fafafa;
+    background-color: #1b1127;
+    border: 1px solid #1b1127;
+    border-radius: 3px;
     text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+.home-page-button:hover {
+    text-decoration: none;
+    color: #55493b;
+    background-color: #fafafa;
+    border: 1px solid #55493b;
+    border-radius: 3px;
+  }
+
+header, footer {
     background-color: #55493b;
     color: #fafafa;
 }
@@ -93,6 +115,7 @@ section {
 }
 
 footer p {
+    text-align: center;
     font-size: 14px;
     line-height: 1.1;
     color: #fafafa;
