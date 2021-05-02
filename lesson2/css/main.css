@@ -4,6 +4,10 @@ body {
     margin: 20px 20px 20px 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-size: 32px;
     margin: 15px 0px;
@@ -116,12 +120,8 @@ footer {
         border-bottom: 1px solid #bda890;
     }
 
-    main section:nth-child(2) {
-		display: block;
-	}
-
 	main section:nth-child(3) {
-		display: none
+		grid-column: span 2;
 	}
 }
 
