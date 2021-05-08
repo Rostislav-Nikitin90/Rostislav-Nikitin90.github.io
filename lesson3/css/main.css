@@ -104,14 +104,15 @@ p {
     color: #3b505a; 
 }
 
-.scenario2, .scenario3, .scenario4, .scenario5, .primary-color-paragraph, .secondary-color-paragraph, .accent1-color-paragraph, .accent2-color-paragraph, .accent3-color-paragraph {
+.scenario1, .scenario2, .scenario3, .scenario4, .scenario5, .primary-color-paragraph, .secondary-color-paragraph, .accent1-color-paragraph, .accent2-color-paragraph, .accent3-color-paragraph {
+    font-size: 16px;
+    color: #5a453b;
     margin: 10px 10px 0px 10px;
     padding: 5px 10px 0px 10px;
 }
 
 .example-paragraph {
     font-family: 'Noto Sans', 'Open Sans', sans-serif;
-    background-color: none;
     color: #003959;
 }
 
