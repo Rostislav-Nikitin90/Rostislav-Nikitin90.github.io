@@ -1,0 +1,161 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background-color: #fefefe;
+	padding: 0;
+	margin: 5px;
+	text-shadow: none;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #006199;
+}
+
+h2 {
+	text-align: center;
+}   
+
+p {
+	font-family: 'Noto Sans', 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #003959;
+}
+
+header {
+	margin: 10px 0px;
+}
+
+div {
+	font-family: 'Noto Sans', 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #003959;
+}
+
+nav button {
+    margin: .3rem 3%;
+    background-color: transparent;
+    border: none;
+	font-family: 'Noto Sans', 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #006199;
+}
+
+nav button:hover {
+	cursor: pointer;
+}
+
+nav {
+	display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+	text-align: center;
+	background-color: #F0FFFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	font-family: 'Noto Sans', 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #006199;
+	border-top: 1px solid rgba(0,97,153,0.3);
+}
+
+nav ul li.active a{background-color: rgba(0,97,153,0.6); color: #fff;}
+
+nav ul li a:hover {background-color: rgba(0,97,153,0.9); color: #fff;}
+
+nav ul.hide {display: none;}
+
+header {
+	background-color: #fefefe;
+	padding: 5px 0 10px 0px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 64px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #006199;
+	margin: 0 0 0 18px;
+}
+
+.motto {
+	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+	letter-spacing: 1pt;
+	color: #db3a00;
+	margin-left: 20px;
+	font-size: 0.9rem;
+}
+
+.main-page-content {
+	display: block;
+	margin: 20px auto; 
+	padding: 10px;
+	background-color: #fefefe;
+	color: #003959;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+main div:nth-child(3) {
+	background-color: #003959;
+	color: #fefefe;
+}
+
+main div:nth-child(5) {
+	background-color: #003959;
+	color: #fefefe;
+}
+
+footer p {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Noto Sans', 'Open Sans', sans-serif;
+    justify-content: center;
+	text-align: center;
+	background-color: #F0FFFF;
+	margin: 43px 0px 0px 0px;
+	padding: 7px 10px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+em {
+	font-style: normal;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
