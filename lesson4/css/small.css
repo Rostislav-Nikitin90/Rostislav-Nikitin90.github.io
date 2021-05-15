@@ -136,7 +136,7 @@ main div:nth-child(5) {
 	color: #fefefe;
 }
 
-footer p {
+footer {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Noto Sans', 'Open Sans', sans-serif;
