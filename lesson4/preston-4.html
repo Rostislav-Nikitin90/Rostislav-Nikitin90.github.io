@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston, Idaho page of the future idahosphere.org website</title>
+    <title>Preston, Idaho page | Idaho Sphere</title>
     <meta name="author" content="Rostislav Nikitin">
     <meta name="description"
         content="Preston, Idaho, a page on the future idahosphere.org website that contains a header, navigation bar, main content section, and footer.">
@@ -27,7 +27,7 @@
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="primaryNav" class="hide">
+        <ul id="menu" class="hide">
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -45,9 +45,10 @@
     </main>
     <footer>
         <p>&copy; Idaho Sphere | Rostislav Nikitin</p>
-        <date></date>
+        <span id="date"></span>
     </footer>
-    <script src="js/preston-4.js"></script>
+    <script src="js/preston-toggle.js"></script>
+    <script src="js/preston-date.js"></script>
 </body>
 
 </html>

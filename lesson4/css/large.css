@@ -64,6 +64,10 @@
         max-width: 960px;
         margin: 20px auto;
     }
+    
+    footer {
+        border-radius: 0px;
+    }
 
     footer p {
         border-radius: 0px;

@@ -149,8 +149,14 @@ footer {
 	border-radius: 5px;
 }
 
+footer p {
+	color: #006199;
+	margin: 1px 0px;
+}
+
 em {
 	font-style: normal;
+	color: #006199;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
