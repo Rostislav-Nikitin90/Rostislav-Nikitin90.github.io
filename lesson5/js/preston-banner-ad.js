@@ -1,4 +1,5 @@
-let thedate = newDate();
-if (thedate.getDay() == 6) {
-    document.querySelector('.banner-ad').style.display = 'block';
+const banner = document.querySelector('.banner-announcement');
+const dayOfWeek = new Date().getDay();
+if (dayOfWeek === 6) {
+    banner.classList.add('visible');
 }
