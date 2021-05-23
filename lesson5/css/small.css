@@ -11,15 +11,6 @@ body {
 	text-shadow: none;
 }
 
-.banner-announcement {
-	padding : 1em;
-	text-align : center;
-	line-height : 1.85em;
-	display : none;
-	cursor : pointer;
-	border: 1px solid blue;
-}
-
 img {
     display: block;
     max-width: 100%;
