@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1025px) {  
+    body {
+        margin: 0px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .headings {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .headings h1 {
+        font-size: 40px;
+    }
+
+    header img {
+        width: 96px;
+        height: auto;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: unset;
+        border-radius: 0px;
+    }
+
+    nav button {display: none;}
+        
+    nav ul.hide {display: block;}
+        
+    nav ul li {
+        float: left;
+    }
+        
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    nav ul li:nth-child(1) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(2) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(3) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(4) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(5) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    main {
+        max-width: 960px;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .banner {
+        position: relative;
+    }
+    
+    .weather-summary {
+        position: absolute;
+        top: 15px;
+	    left: 18px;
+        opacity: .7;
+    }
+
+    .article-image {
+        float: right;
+        margin: 0;
+        padding: 0px 0px 8px 8px;
+        border-radius: 0px 5px 0px 0px;
+    }
+
+    .contact-info {
+        display: grid;
+	    grid-template-columns: 480px 35px auto;
+        column-gap: 8px;
+        padding: 18px 213px 15px 213px;
+        border-radius: 0px;
+    }
+
+    .location-idahosphere {
+        grid-column: 1/2;
+	    grid-row: 1/8;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .contact-info-heading {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .idahosphere-heading {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .address-icon {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .address {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .email-icon {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .email {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    .phone-icon {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .phone {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
+    .facebook-icon {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .instagram-icon {
+        grid-column: 3/4;
+        grid-row: 6/7;
+    }
+
+    .website-info {
+        text-align: center;
+    }
+    
+    footer {
+        border-radius: 0px;
+    }
+
+    footer p {
+        border-radius: 0px;
+    }
+} 
