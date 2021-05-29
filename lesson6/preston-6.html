@@ -8,8 +8,6 @@
     <meta name="author" content="Rostislav Nikitin">
     <meta name="description"
         content="Preston, Idaho, a page on the future idahosphere.org website that contains a header, navigation bar, main content section, and footer.">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -43,18 +41,20 @@
                 <source media="(max-width: 1024px)" srcset="images/hero-img-medium.jpg">
                 <img class="banner-image" src="images/hero-img-large.jpg" alt="hero banner">
             </picture>
-            <section class="weather-summary">
-                <h3 class="weather-summary-heading">Weather Summary</h3>
-                <p class="left-column">Currently:</p>
-                <p class="right-column">Mostly Cloudy</p>
-                <p class="left-column">High:</p>
-                <p class="right-column">64 °F</p>
-                <p class="left-column">Wind Chill:</p>
-                <p class="right-column">°F</p>
-                <p class="left-column">Humidity:</p>
-                <p class="right-column">89%</p>
-                <p class="left-column">Wind Speed:</p>
-                <p class="right-column">6 mph</p>
+            <section>
+                <div class="weather-summary">
+                    <h3 class="weather-summary-heading">Weather Summary</h3>
+                    <span class="left-column-label">Currently:</span>
+                    <span class="right-column-value">Mostly Cloudy</span>
+                    <span class="left-column-label">Temperature:</span>
+                    <span class="right-column-value"><span class="temp">45</span> &deg;F</p></span>
+                    <span class="left-column-label">Wind Chill:</span>
+                    <span class="right-column-value"><span class="windchill"></span></span>
+                    <span class="left-column-label">Humidity:</span>
+                    <span class="right-column-value">70%</span>
+                    <span class="left-column-label">Wind Speed:</span>
+                    <span class="right-column-value"><span class="windspeed">4</span> mph</span>    
+                </div>
             </section>
         </div>
         <section class="weather-forecast">
@@ -128,7 +128,9 @@
     </footer>
     <script src="js/preston-toggle.js"></script>
     <script src="js/preston-date.js"></script>
-    <script src="js/preston-banner-ad.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/preston-fonts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

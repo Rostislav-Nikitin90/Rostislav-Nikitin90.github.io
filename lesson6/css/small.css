@@ -165,14 +165,14 @@ section p {
 	
 }
 
-.left-column {
+.left-column-label {
 	grid-column: 1/2;
-	padding: 0px 0px 0px 18px;
+	padding: 0px 0px 8px 18px;
 }
 
-.right-column {
+.right-column-value {
 	grid-column: 2/3;
-	padding: 0px 18px 0px 0px;
+	padding: 0px 18px 8px 10px;
 }
 
 .weather-forecast {
