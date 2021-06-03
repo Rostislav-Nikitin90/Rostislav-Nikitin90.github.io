@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W07 Activity: Progressive Loading of Images</title>
+    <meta name="author" content="Rostislav Nikitin">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/lazyload.css">
+</head>
+
+<body>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src="/lesson7/images/placeholder300x400.jpg"
+                data-src="/lesson7/images/dave-hoefler-2bwisxkvvp8-unsplash-300x400.jpg" alt="example1">
+        </picture>
+        <picture>
+            <img src="/lesson7/images/placeholder300x400.jpg"
+                data-src="/lesson7/images/shibupavizha-george-y0-cp5ygnf4-unsplash-300x400.jpg" alt="example2">
+        </picture>
+        <picture>
+            <img src="/lesson7/images/placeholder300x400.jpg"
+                data-src="/lesson7/images/michael-browk-wxdnj6qval4-unsplash-300x400.jpg" alt="example3">
+        </picture>
+        <picture>
+            <img src="/lesson7/images/placeholder300x400.jpg"
+                data-src="/lesson7/images/irina-marie-pxkx8-dygxo-unsplash-300x400.jpg" alt="example4">
+        </picture>
+        <picture>
+            <img src="/lesson7/images/placeholder300x400.jpg"
+                data-src="/lesson7/images/dave-hoefler-7deh0fqj2xe-unsplash-300x400.jpg" alt="example5">
+        </picture>
+    </main>
+    <script src="js/lazyload.js" defer></script>
+</body>
+
+</html>
