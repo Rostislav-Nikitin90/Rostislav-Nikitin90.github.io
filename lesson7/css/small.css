@@ -442,15 +442,19 @@ em {
 	padding: 5px 10px 25px 10px;
 }
 
-.weather-gallery picture:nth-child(4) {
+.weather-gallery figure {
+	margin: 0px;
+}
+
+.weather-gallery figure:nth-child(4) {
 	background-color: #003959;
 }
 
-.weather-gallery picture:nth-child(5) {
+.weather-gallery figure:nth-child(5) {
 	background-color: #003959;
 }
 
-.weather-gallery picture:nth-child(6) {
+.weather-gallery figure:nth-child(6) {
 	background-color: #003959;
 }
 

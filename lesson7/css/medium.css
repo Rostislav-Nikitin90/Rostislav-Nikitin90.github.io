@@ -146,7 +146,7 @@
         padding: 5px 10px 25px 10px;
     }
 
-    .weather-gallery picture:nth-child(3) {
+    .weather-gallery figure:nth-child(3) {
         background-color: #003959;
     }
 

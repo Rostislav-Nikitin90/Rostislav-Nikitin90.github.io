@@ -174,42 +174,42 @@
         border-radius: 5px;
     }
 
-    .weather-gallery picture:nth-child(1) {
+    .weather-gallery figure:nth-child(1) {
         border-right: 8px solid #fefefe;
     }
 
-    .weather-gallery picture:nth-child(2) {
+    .weather-gallery figure:nth-child(2) {
         border-right: 4px solid #fefefe;
         border-left: 4px solid #fefefe;
     }
 
-    .weather-gallery picture:nth-child(3) {
+    .weather-gallery figure:nth-child(3) {
         border-left: 8px solid #fefefe;
     }
 
-    .weather-gallery picture:nth-child(4) {
+    .weather-gallery figure:nth-child(4) {
         border-right: 8px solid #003959;
     }
 
-    .weather-gallery picture:nth-child(5) {
+    .weather-gallery figure:nth-child(5) {
         border-right: 4px solid #003959;
         border-left: 4px solid #003959;
     }
 
-    .weather-gallery picture:nth-child(6) {
+    .weather-gallery figure:nth-child(6) {
         border-left: 8px solid #003959;
     }
 
-    .weather-gallery picture:nth-child(7) {
+    .weather-gallery figure:nth-child(7) {
         border-right: 8px solid #fefefe;
     }
 
-    .weather-gallery picture:nth-child(8) {
+    .weather-gallery figure:nth-child(8) {
         border-right: 4px solid #fefefe;
         border-left: 4px solid #fefefe;
     }
 
-    .weather-gallery picture:nth-child(9) {
+    .weather-gallery figure:nth-child(9) {
         border-left: 8px solid #fefefe;
     }
 
@@ -278,55 +278,55 @@
         padding: 15px 0px 0px 0px;
     }
 
-    .picture-1:hover {
+    .figure-1:hover {
         border-radius: 5px 0px 0px 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-2:hover {
+    .figure-2:hover {
         border-radius: 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-3:hover {
+    .figure-3:hover {
         border-radius: 0px 5px 0px 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-4:hover {
+    .figure-4:hover {
         border-radius: 0px;
         box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-5:hover {
+    .figure-5:hover {
         border-radius: 0px;
         box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-6:hover {
+    .figure-6:hover {
         border-radius: 0px;
         box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-7:hover {
+    .figure-7:hover {
         border-radius: 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-8:hover {
+    .figure-8:hover {
         border-radius: 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
     }
 
-    .picture-9:hover {
+    .figure-9:hover {
         border-radius: 0px;
         box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         transition: 0.1s;
