@@ -1,0 +1,380 @@
+@media only screen and (min-width: 1025px) {  
+    body {
+        margin: 0px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .headings {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .headings h1 {
+        font-size: 40px;
+    }
+
+    header img {
+        width: 96px;
+        height: auto;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: unset;
+        border-radius: 0px;
+    }
+
+    nav button {display: none;}
+        
+    nav ul.hide {display: block;}
+        
+    nav ul li {
+        float: left;
+    }
+        
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    nav ul li:nth-child(1) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(2) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(3) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(4) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    nav ul li:nth-child(5) {
+        border-right: 1px solid rgba(0,97,153,0.3);
+    }
+
+    main {
+        max-width: 960px;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .banner {
+        position: relative;
+    }
+    
+    .weather-summary {
+        position: absolute;
+        top: 15px;
+	    left: 18px;
+        opacity: .8;
+    }
+
+    .article-image {
+        float: right;
+        margin: 0;
+        padding: 0px 0px 8px 8px;
+        border-radius: 0px 5px 0px 0px;
+    }
+
+    .contact-info {
+        display: grid;
+	    grid-template-columns: 480px 35px auto;
+        column-gap: 8px;
+        padding: 18px 213px 15px 213px;
+        border-radius: 0px;
+    }
+
+    .location-idahosphere {
+        grid-column: 1/2;
+	    grid-row: 1/8;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .contact-info-heading {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .idahosphere-heading {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .address-icon {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .address {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .email-icon {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .email {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    .phone-icon {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .phone {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
+    .facebook-icon {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .instagram-icon {
+        grid-column: 3/4;
+        grid-row: 6/7;
+    }
+
+    .website-info {
+        text-align: center;
+    }
+    
+    footer {
+        border-radius: 0px;
+    }
+
+    footer p {
+        border-radius: 0px;
+    }
+
+    .main-gallery-page {
+        max-width: 1185px;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .weather-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-radius: 5px;
+    }
+
+    .weather-gallery picture:nth-child(1) {
+        border-right: 8px solid #fefefe;
+    }
+
+    .weather-gallery picture:nth-child(2) {
+        border-right: 4px solid #fefefe;
+        border-left: 4px solid #fefefe;
+    }
+
+    .weather-gallery picture:nth-child(3) {
+        border-left: 8px solid #fefefe;
+    }
+
+    .weather-gallery picture:nth-child(4) {
+        border-right: 8px solid #003959;
+    }
+
+    .weather-gallery picture:nth-child(5) {
+        border-right: 4px solid #003959;
+        border-left: 4px solid #003959;
+    }
+
+    .weather-gallery picture:nth-child(6) {
+        border-left: 8px solid #003959;
+    }
+
+    .weather-gallery picture:nth-child(7) {
+        border-right: 8px solid #fefefe;
+    }
+
+    .weather-gallery picture:nth-child(8) {
+        border-right: 4px solid #fefefe;
+        border-left: 4px solid #fefefe;
+    }
+
+    .weather-gallery picture:nth-child(9) {
+        border-left: 8px solid #fefefe;
+    }
+
+    .figcaption1, .figcaption2, .figcaption3, .figcaption4, .figcaption5, .figcaption6 {
+        padding: 10px 10px 25px 10px;
+    }
+
+    .figcaption7, .figcaption8, .figcaption9 {
+        padding: 10px 10px 40px 10px;
+    }
+
+    .image-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 0px;
+        border-radius: 5px 0px 0px 0px;
+    }
+    
+    .image-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    
+    .image-3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding: 0px;
+        border-radius: 0px 5px 0px 0px;
+    }
+    
+    .image-4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    .image-5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    .image-6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    .image-7 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    .image-8 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    .image-9 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .picture-1:hover {
+        border-radius: 5px 0px 0px 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-2:hover {
+        border-radius: 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-3:hover {
+        border-radius: 0px 5px 0px 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-4:hover {
+        border-radius: 0px;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-5:hover {
+        border-radius: 0px;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-6:hover {
+        border-radius: 0px;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(253, 253, 253, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-7:hover {
+        border-radius: 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-8:hover {
+        border-radius: 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .picture-9:hover {
+        border-radius: 0px;
+        box-shadow: rgba(93, 62, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        transition: 0.1s;
+    }
+
+    .image-1:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-2:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-3:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-4:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-5:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-6:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-7:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-8:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+    .image-9:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: 0.1s;
+    }
+
+} 
