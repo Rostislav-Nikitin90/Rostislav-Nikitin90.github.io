@@ -9,7 +9,7 @@ body {
 
 .acme-wildwest-table {
     margin: 30px auto;
-    width: fit-content;
+    width: max-content;
     box-shadow: 7px 8px 8px #628CA6;
 }    
 
@@ -69,4 +69,10 @@ tfoot {
     table {
         margin: 5px auto;
     }
+
+    .acme-wildwest-table {
+        margin: 30px auto;
+        width: fit-content;
+        box-shadow: 7px 8px 8px #628CA6;
+    }    
 }
