@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+   margin: 0px;
+}
+
+.acme-wildwest-table {
+    margin: 30px auto;
+    width: fit-content;
+    box-shadow: 7px 8px 8px #628CA6;
+}    
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid rgb(200,200,200);
+}
+
+caption, th, td {
+    padding: 7px;
+    text-align: center;
+    border: 1px solid rgb(200,200,200);
+  }
+
+caption {
+    font-size: 26px;
+    font-weight: 700;
+    border-top: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+    border-bottom: none;
+    border-left: 1px solid rgb(200,200,200);
+}
+
+caption, tfoot {
+    background-color: #7FB9C2;
+}
+
+th {
+    font-size: 18px;
+    background-color: #628CA6;
+    color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E7F0ED;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E7FFED;
+}
+
+table tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: #628CA6;
+    color: #FFFFFF;
+}
+
+table tbody tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+}
+
+tfoot {
+    font-size: 12px;
+}
+
+@media (max-width: 767px) {
+    table {
+        margin: 5px auto;
+    }
+}
