@@ -66,13 +66,62 @@ tfoot {
 }
 
 @media (max-width: 767px) {
-    table {
-        margin: 5px auto;
+    .acme-wildwest-table {
+        margin: 0px auto;
+        width: fit-content;
+        box-shadow: none;
     }
 
-    .acme-wildwest-table {
-        margin: 30px auto;
-        width: fit-content;
-        box-shadow: 7px 8px 8px #628CA6;
-    }    
+    caption, td {
+        padding: 12px;
+    }
+    
+    table thead  th {
+        display: none;
+    }
+
+    table, tr, td, th, thead {
+        display: grid;
+    }
+
+    table tr {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    table td {
+        border-bottom: none;
+        display: block;
+        font-size: 20px;
+        text-align: right;
+    }
+
+    table tbody td:last-child {
+        border-bottom: 1px solid rgb(43, 43, 43);
+    }
+
+    table tbody td:nth-of-type(1):before {
+        content: 'Period';
+    }
+
+    table tbody td:nth-of-type(2):before {
+        content: 'Sales';
+    }
+
+    table tbody td:nth-of-type(3):before {
+        content: 'Global Sales';
+    }
+
+    table td::before {
+        float: left;
+    }
+
+    tfoot td {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    tfoot tr {
+        margin: 0px;
+    }
 }
