@@ -692,6 +692,10 @@ div.towns section:nth-child(even) p {
     color: #fefefe;
 }
 
+div.towns section img {
+	margin: 0 auto;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

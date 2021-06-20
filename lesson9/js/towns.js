@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
   const towns = jsonObject['towns'];
 
-  const town = towns.filter(town => town.name == 'Preston' || town.name == 'Soda Springs' || town.name == "Fish Haven");
+  const town = towns.filter(town => town.name == 'Preston' || town.name == 'Soda Springs' || town.name == "Fish Haven")
   
   town.forEach(town => {
     let box = document.createElement('section');
@@ -34,7 +34,7 @@ fetch(requestURL)
     par3.textContent = 'Annual Rain Fall:' + ' ' + town.averageRainfall;
     box.appendChild(par3);
 
-    img.setAttribute('src', town.photo);
+    img.setAttribute('src', "images/" + town.photo);
     img.setAttribute('alt', town.name);
     box.appendChild(img);
 
