@@ -1,4 +1,4 @@
-const apiURL1 = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=12f91a41bd21c1ca9341109b7e228eab";
+const apiURL1 = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=12f91a41bd21c1ca9341109b7e228eab";
 fetch(apiURL1)
   .then((response) => response.json())
   .then((jsonObject) => {
@@ -9,7 +9,7 @@ fetch(apiURL1)
     document.getElementById('windspeed').textContent = jsonObject.wind.speed.toFixed(0) + 'mph';
   });
 
-  const apiURL2 = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=12f91a41bd21c1ca9341109b7e228eab";
+  const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=12f91a41bd21c1ca9341109b7e228eab";
   fetch(apiURL2)
     .then((response) => response.json())
     .then((jsonObject) => {
