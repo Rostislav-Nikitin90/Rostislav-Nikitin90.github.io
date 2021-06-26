@@ -30,6 +30,7 @@ fetch(apiURL1)
         box.appendChild(p1);
   
         img.setAttribute('src', "https://openweathermap.org/img/wn/" + list.weather[0].icon + ".png");
+        img.setAttribute('alt', "Weather icon:" + ' ' + list.weather[0].icon);
         box.appendChild(img);
   
         p2.textContent = list.main.temp.toFixed(0) + ' °F';
