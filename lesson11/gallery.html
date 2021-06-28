@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Gallery Page | Idaho Sphere</title>
+    <meta name="author" content="Rostislav Nikitin">
+    <meta name="description"
+        content="Weather Gallery, a page on the future idahosphere.org website that contains a header, navigation bar, main content section, and footer.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture><img class="logo-image" src="images/1054936-128.png" alt="Logo Image."></picture>
+        <section class="headings">
+            <h1>Idaho Sphere</h1>
+            <div class="motto">Covering more than just your weather!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="menu" class="hide">
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/index.html">Home</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="https://rostislav-nikitin90.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="main-gallery-page">
+        <h2 class="heading2-gallery">Weather Gallery</h2>
+        <div class="weather-gallery">
+            <figure class="figure-1"><img class="image-1" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/alex-bertha-7vaxeuIn3tI-unsplash395x263.jpg" alt="image1">
+                <figcaption class="figcaption1">Stretched clouds at Sawtooth Range Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-2"><img class="image-2" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/todd-diemer-2xsty9jbkky-unsplash395x263.jpg" alt="image2">
+                <figcaption class="figcaption2">Clear sky over a lake in Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-3"><img class="image-3" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/kevin-fitzgerald-gwybcyywyqm-unsplash395x263.jpg" alt="image3">
+                <figcaption class="figcaption3">Cloudy mountains in Bogus Basin Idaho</figcaption>
+            </figure>
+          
+            <figure class="figure-4"><img class="image-4" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/timothy-eberly-fjekaybnsa4-unsplash395x263.jpg" alt="image4">
+                <figcaption class="figcaption4">Sunset on a lake in Southeast Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-5"><img class="image-5" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/matthew-lancaster-h1psrti2lx4-unsplash395x263.jpg" alt="image5">
+                <figcaption class="figcaption5">Winter scenery in the mountains of Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-6"><img class="image-6" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/clark-wilson-logiyv-pg0k-unsplash395x263.jpg" alt="image6">
+                <figcaption class="figcaption6">Heavy clouds over mountains in Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-7"><img class="image-7" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/timothy-eberly-b0pic9m40tg-unsplash395x263.jpg" alt="image7">
+                <figcaption class="figcaption7">Winter in scenic McCall Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-8"><img class="image-8" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/noaa-iewhxjjaewy-unsplash395x263.jpg" alt="image8">
+                <figcaption class="figcaption8">Thunderclouds in Southeast Idaho</figcaption>
+            </figure>
+
+            <figure class="figure-9"><img class="image-9" src="/lesson11/images/placeholder395x263.jpg"
+                    data-src="/lesson11/images/jeremy-bishop-pnswnfqppf4-unsplash395x263.jpg" alt="image9">
+                <figcaption class="figcaption9">White clouds over the mountains of Idaho</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div class="website-info">
+            <p class="website-info-content">&copy; Idaho Sphere | Rostislav Nikitin</p>
+            <span id="date"></span>
+        </div>
+    </footer>
+    <script src="js/preston-toggle.js"></script>
+    <script src="js/preston-date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/preston-fonts.js"></script>
+    <script src="js/lazyload.js" defer></script>
+</body>
+
+</html>

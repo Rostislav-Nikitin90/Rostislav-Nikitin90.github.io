@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston, Idaho page | Idaho Sphere</title>
+    <meta name="author" content="Rostislav Nikitin">
+    <meta name="description"
+        content="Preston, Idaho, a page on the future idahosphere.org website that contains a header, navigation bar, main content section, and footer.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <picture><img class="logo-image" src="images/1054936-128.png" alt="Logo Image."></picture>
+        <section class="headings">
+            <h1>Idaho Sphere</h1>
+            <div class="motto">Covering more than just your weather!</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="menu" class="hide">
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/index.html">Home</a></li>
+            <li class="active"><a href="https://rostislav-nikitin90.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="heading2-preston">Preston Idaho</h2>
+        <div class="banner">
+            <picture>
+                <source media="(max-width: 767px)" srcset="images/hero-img-small.jpg">
+                <source media="(max-width: 1024px)" srcset="images/hero-img-medium.jpg">
+                <img class="banner-image" src="images/hero-img-large.jpg" alt="hero banner">
+            </picture>
+            <section>
+                <div class="weather-summary">
+                    <h3 class="weather-summary-heading">Weather Summary</h3>
+                    <span class="left-column-label">Currently:</span>
+                    <span class="right-column-value"><span id="current-weather-condition-description"></span></span>
+                    <span class="left-column-label">Temperature:</span>
+                    <span class="right-column-value"><span id="current-temp"></span></span>
+                    <span class="left-column-label">Wind Chill:</span>
+                    <span class="right-column-value"><span id="windchill"></span></span>
+                    <span class="left-column-label">Humidity:</span>
+                    <span class="right-column-value"><span id="humidity"></span></span>
+                    <span class="left-column-label">Wind Speed:</span>
+                    <span class="right-column-value"><span id="windspeed"></span></span>    
+                </div>
+            </section>
+        </div>
+        <section class="weather-forecast">
+            <h3 class="weather-forecast-heading">5 Day Forecast</h3>
+            <div class="list"></div>
+        </section>
+        <section class="article-content">
+            <h3 class="article-heading">Article Title</h3>
+            <div class="clearfix">
+                <img class="article-image" src="images/idaho-river.png" alt="idaho river">
+                <p class="first-paragraph-in-article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                    delectus, repellat recusandae, harum
+                    sapiente ab praesentium quos in quidem, aliquid labore! Temporibus ut vel qui est, repellendus quam
+                    tempora dolor illum doloribus eum? Numquam asperiores deleniti dignissimos nesciunt perferendis!
+                    Tempore et consectetur sapiente vitae? Harum distinctio excepturi animi id qui quae, esse facere
+                    expedita, quia eos fugiat est labore sed aspernatur, rerum sunt necessitatibus! Fugit alias
+                    accusamus obcaecati rerum.
+                </p>
+                <p class="second-paragraph-in-article">Praesentium, quibusdam facere ipsum numquam molestias et quos natus autem dolorum quo odio dolore
+                    adipisci similique tenetur dolor tempore omnis. Fugit voluptas assumenda, consectetur nisi quam
+                    voluptate consequuntur quae aut eum soluta necessitatibus ex officia velit eius ipsam? Modi nostrum
+                    nihil nisi natus similique libero pariatur doloremque nam porro ea maiores excepturi vel at fugiat
+                    corporis voluptates, ipsum vero deserunt totam necessitatibus cumque. Labore repellat pariatur
+                    veniam similique vel?</p><a href="#" class="article-button">Continue reading...</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contact-info">
+            <h3 class="contact-info-heading">Contact Information</h3>
+            <h4 class="idahosphere-heading">Idaho Sphere</h4>
+            <img class="address-icon" src="images/6358084-24.png" alt="address icon white color">
+            <p class="address">2 N State St, Preston, ID 83263, United States</p>
+            <img class="email-icon" src="images/103176-24.png" alt="email icon white color">
+            <p class="email">info@idahosphere.com</p>
+            <img class="phone-icon" src="images/322424-24.png" alt="phone icon white color">
+            <p class="phone">999 999 9999</p>
+                <a href="https://www.facebook.com" target="_blank"><img class="facebook-icon" src="images/107175-24.png" alt="small facebook icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="instagram-icon" src="images/107172-24.png" alt="small instagram icon"></a>
+            <img class="location-idahosphere" src="images/screenshot-map-2021.png" alt="idahosphere location on map">
+        </section>
+        <div class="website-info">
+            <p class="weather-data-source">Weather data provided by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+            <p class="website-info-content">&copy; Idaho Sphere | Rostislav Nikitin</p>
+        <span id="date"></span>
+        </div>
+    </footer>
+    <script src="js/preston-toggle.js"></script>
+    <script src="js/preston-date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/preston-fonts.js"></script>
+    <script defer src="js/preston-weatherapi.js"></script>
+    <script defer src="js/windchill.js"></script>
+</body>
+
+</html>
