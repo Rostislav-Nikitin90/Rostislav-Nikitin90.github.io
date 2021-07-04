@@ -1,3 +1,5 @@
+WebFont.load({ google: { families: [ 'Noto Sans', 'Source Sans Pro' ] } });
+
 // to display the information banner on Preston Town Page only if the day of the week is currently Friday
 let thedate = new Date();
 if (thedate.getDay() == 5) {
