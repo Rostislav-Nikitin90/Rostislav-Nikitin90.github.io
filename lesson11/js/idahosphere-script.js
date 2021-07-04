@@ -195,48 +195,6 @@ fetch(SodaSpringsapiURL1)
     
     });
 
-// to calculate and display the wind chill in the weather summary on the Preston Town Page
-const PrestontempF = document.querySelector('#preston-current-temp').innerHTML;
-const Prestonspeed = document.querySelector('#preston-windspeed').innerHTML;
-let Prestonf;
-
-if (PrestontempF <= 50 && PrestontempF >= 3) {
-  Prestonnf = 35.74 + (0.6215 * PrestontempF) - 35.75 * (Math.pow(Prestonspeed, 0.16)) + ((0.4275 * PrestontempF) * (Math.pow(Prestonspeed, 0.16)));
-  document.querySelector('#preston-windchill').innerHTML = Prestonf.toFixed(0) + ' °F';
-} 
-
-else {
-  document.querySelector('#preston-windchill').innerHTML = 'N/A';
-}
-
-// to calculate and display the wind chill in the weather summary on the Soda Springs Town Page
-const SodaSpringstempF = document.querySelector('#soda-springs-current-temp').innerHTML;
-const SodaSpringsspeed = document.querySelector('#soda-springs-windspeed').innerHTML;
-let SodaSPringsf;
-
-if (SodaSpringstempF <= 50 && SodaSpringstempF >= 3) {
-  SodaSpringsf = 35.74 + (0.6215 * SodaSpringstempF) - 35.75 * (Math.pow(SodaSpringsspeed, 0.16)) + ((0.4275 * SodaSpringstempF) * (Math.pow(SodaSpringsspeed, 0.16)));
-  document.querySelector('#soda-springs-windchill').innerHTML = SodaSpringsf.toFixed(0) + ' °F';
-} 
-
-else {
-  document.querySelector('#soda-springs-windchill').innerHTML = 'N/A';
-}
-
-// to calculate and display the wind chill in the weather summary on the Fish Haven Town Page
-const FishHaventempF = document.querySelector('#fish-haven-current-temp').innerHTML;
-const FishHavenspeed = document.querySelector('#fish-haven-windspeed').innerHTML;
-let FishHavenf;
-
-if (FishHaventempF <= 50 && FishHaventempF >= 3) {
-  FishHavenf = 35.74 + (0.6215 * FishHaventempF) - 35.75 * (Math.pow(FishHavenspeed, 0.16)) + ((0.4275 * FishHaventempF) * (Math.pow(FishHavenspeed, 0.16)));
-  document.querySelector('#fish-haven-windchill').innerHTML = FishHavenf.toFixed(0) + ' °F';
-} 
-
-else {
-  document.querySelector('#fish-haven-windchill').innerHTML = 'N/A';
-}
-
 // to display the upcoming town events on the Preston Town Page
 const prestonTowndata = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
