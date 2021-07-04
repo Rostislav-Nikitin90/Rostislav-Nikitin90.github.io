@@ -6,7 +6,7 @@ if (thedate.getDay() == 5) {
     document.querySelector('.info-banner').style.display = 'block';
 }
 
-// to display the menu on all pages of the weather site
+// to display the menu on all pages of the Weather Site
 function toggleMenu() {
     document.getElementById("menu").classList.toggle("hide");
 }
