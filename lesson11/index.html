@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page | Idaho Sphere</title>
+    <title>Home Page | Idaho Sphere</title>
     <meta name="author" content="Rostislav Nikitin">
     <meta name="description"
         content="Home page of the future idahosphere.org website that contains a header, navigation bar, main content section, and footer.">
@@ -16,7 +16,8 @@
 
 <body>
     <header>
-        <picture><img class="logo-image" src="images/1054936-128.png" alt="Logo Image."></picture>
+        <picture><a href="https://rostislav-nikitin90.github.io/lesson11/index.html"><img class="logo-image"
+                    src="images/1054936-128.png" alt="Logo Image."></a></picture>
         <section class="headings">
             <h1>Idaho Sphere</h1>
             <div class="motto">Covering more than just your weather!</div>
@@ -27,8 +28,8 @@
         <ul id="menu" class="hide">
             <li class="active"><a href="https://rostislav-nikitin90.github.io/lesson11/index.html">Home</a></li>
             <li><a href="https://rostislav-nikitin90.github.io/lesson11/preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/soda-springs.html">Soda Springs</a></li>
+            <li><a href="https://rostislav-nikitin90.github.io/lesson11/fish-haven.html">Fish Haven</a></li>
             <li><a href="https://rostislav-nikitin90.github.io/lesson11/stormcenter.html">Storm Center</a></li>
             <li><a href="https://rostislav-nikitin90.github.io/lesson11/gallery.html">Gallery</a></li>
         </ul>
@@ -36,30 +37,28 @@
     <main>
         <div class="banner">
             <picture>
-                <img class="home-page-banner-image" src="images/alex-bertha-i6k8vg7ry98-unsplash960x399.jpg"
-                    alt="home page banner">
+                <source media="(max-width: 767px)" srcset="images/home-page-banner-img-small.jpg">
+                <source media="(max-width: 1024px)" srcset="images/home-page-banner-img-medium.jpg">
+                <img class="home-page-banner-image" src="images/home-page-banner-img-large.jpg" alt="home page banner">
             </picture>
         </div>
         <div class="towns"></div>
         <div class="home-page-article-content">
-            <h3 class="article-heading">Article Title</h3>
-            <p class="first-paragraph-in-article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-                nihil rerum ipsam natus quam quos atque, exercitationem omnis, sequi accusantium tempore nobis, facere
-                quo tempora repudiandae! Eius ea sequi ad ipsa voluptate nesciunt quasi officia aspernatur obcaecati
-                eaque mollitia optio atque illum, cum magni deserunt distinctio placeat id ipsam expedita dicta!
-                Nesciunt quibusdam eius repudiandae dicta fugit ad sapiente maiores hic praesentium nam cumque nostrum
-                voluptatum incidunt commodi, blanditiis deserunt eum distinctio architecto rerum enim eos dolor sit
-                tenetur molestias. Delectus voluptatem aut nam tempora ipsam temporibus sint excepturi minima molestiae
-                quisquam. Repudiandae possimus ab rerum.
-            </p>
-            <p class="second-paragraph-in-article">Tempore deserunt nobis ullam doloremque molestiae itaque, debitis
-                earum mollitia nulla aperiam officiis dolorem maxime. Corrupti temporibus consequatur laudantium odio,
-                tempora debitis sint. Illum recusandae omnis velit, corporis quos facere sed aliquid vel nemo officiis,
-                cumque qui praesentium harum! Tempore officia inventore accusantium nam alias recusandae reprehenderit
-                maiores quidem dignissimos odio amet, assumenda placeat neque numquam. Consectetur totam optio harum
-                dolorem delectus illo aliquam, reiciendis quam sit deleniti doloremque aspernatur sint eligendi minus
-                assumenda perferendis illum voluptas vitae rem! Alias a, quibusdam unde totam accusantium natus ipsum
-                autem saepe.</p><a href="#" class="article-button">Continue reading...</a>
+            <h3 class="article-heading">Idaho — Weather</h3>
+            <p class="first-paragraph-in-article">Despite being inland, Idaho weather is largely influenced by climate
+                from the Pacific Ocean. In general, the southern portion of the state is warmer, while the northern
+                region gets more precipitation. In winter, this means lots of snow in the north, where up to 500 inches
+                have accumulated in one season in years past. While Boise gets an average of 21 inches of snow each
+                winter, Coeur d’Alene averages at 52 inches every year, and the mountains get significantly more still.
+                Winter temperatures average around 34°F December through February throughout most of the state, with
+                nightly lows dropping well below freezing.</p>
+            <p class="second-paragraph-in-article">Summers bring warm daytime highs around 90°F in Boise and 83°F in Sun
+                Valley. Most of the state falls somewhere in between, with cooler temperatures in the mountains and up
+                north, and warmer weather along the southern plains. Thunderstorms are common across Idaho during the
+                summer months, which are relatively brief (late June to late August). Visitors can expect sunshine 80
+                percent of the time during the summer and about 50 percent of the time in winter.</p><a
+                href="https://www.iexplore.com/articles/travel-guides/north-america/united-states/idaho/weather"
+                target="_blank" class="article-button">Read full article</a>
         </div>
     </main>
     <footer>
@@ -83,11 +82,9 @@
             <span id="date"></span>
         </div>
     </footer>
-    <script src="js/preston-toggle.js"></script>
-    <script src="js/preston-date.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/preston-fonts.js"></script>
-    <script src="js/towns.js" defer></script>
+    <script src="js/idahosphere-script.js"></script>
 </body>
 
 </html>
