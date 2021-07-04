@@ -27,7 +27,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
   const towns = jsonObject['towns'];
 
   const town = towns.filter(town => town.name == 'Preston' || town.name == 'Soda Springs' || town.name == "Fish Haven")
@@ -70,7 +69,6 @@ const PrestonapiURL1 = "https://api.openweathermap.org/data/2.5/weather?id=56044
 fetch(PrestonapiURL1)
   .then((response) => response.json())
   .then((jsonObject) => {
-    console.log(jsonObject);
     document.getElementById('preston-current-weather-condition-description').textContent = jsonObject.weather[0].description; 
     document.getElementById('preston-current-temp').textContent = jsonObject.main.temp.toFixed(0) + ' °F';
     document.getElementById('preston-humidity').textContent = jsonObject.main.humidity + '%';
@@ -81,11 +79,9 @@ fetch(PrestonapiURL1)
   fetch(PrestonapiURL2)
     .then((response) => response.json())
     .then((jsonObject) => {
-      console.log(jsonObject);
       const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
       const list = jsonObject.list.filter(list => list.dt_txt.includes("18:00:00"));
-      console.log(list);
   
       list.forEach(list => {
         let box = document.createElement('section');
@@ -114,7 +110,6 @@ fetch(PrestonapiURL1)
 fetch(SodaSpringsapiURL1)
   .then((response) => response.json())
   .then((jsonObject) => {
-    console.log(jsonObject);
     document.getElementById('soda-springs-current-weather-condition-description').textContent = jsonObject.weather[0].description; 
     document.getElementById('soda-springs-current-temp').textContent = jsonObject.main.temp.toFixed(0) + ' °F';
     document.getElementById('soda-springs-humidity').textContent = jsonObject.main.humidity + '%';
@@ -125,11 +120,9 @@ fetch(SodaSpringsapiURL1)
   fetch(SodaSpringsapiURL2)
     .then((response) => response.json())
     .then((jsonObject) => {
-      console.log(jsonObject);
       const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
       const list = jsonObject.list.filter(list => list.dt_txt.includes("18:00:00"));
-      console.log(list);
   
       list.forEach(list => {
         let box = document.createElement('section');
@@ -158,7 +151,6 @@ fetch(SodaSpringsapiURL1)
   fetch(FishHavenapiURL1)
     .then((response) => response.json())
     .then((jsonObject) => {
-      console.log(jsonObject);
       document.getElementById('fish-haven-current-weather-condition-description').textContent = jsonObject.weather[0].description; 
       document.getElementById('fish-haven-current-temp').textContent = jsonObject.main.temp.toFixed(0) + ' °F';
       document.getElementById('fish-haven-humidity').textContent = jsonObject.main.humidity + '%';
@@ -169,11 +161,9 @@ fetch(SodaSpringsapiURL1)
     fetch(FishHavenapiURL2)
       .then((response) => response.json())
       .then((jsonObject) => {
-        console.log(jsonObject);
         const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   
         const list = jsonObject.list.filter(list => list.dt_txt.includes("18:00:00"));
-        console.log(list);
     
         list.forEach(list => {
           let box = document.createElement('section');
@@ -205,7 +195,6 @@ fetch(prestonTowndata)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
   const towns = jsonObject['towns'];
 
   const town = towns.filter(town => town.name == 'Preston')
@@ -242,7 +231,6 @@ fetch(SodaSpringsTowndata)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
   const towns = jsonObject['towns'];
 
   const town = towns.filter(town => town.name == 'Soda Springs')
@@ -279,7 +267,6 @@ fetch(FishHavenTowndata)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
   const towns = jsonObject['towns'];
 
   const town = towns.filter(town => town.name == 'Fish Haven')
