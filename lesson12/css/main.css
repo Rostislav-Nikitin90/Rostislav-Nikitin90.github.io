@@ -315,11 +315,12 @@ footer {
 
 @media (max-width: 767px) {
     nav ul {
-        display: block;
+        display: flex;
     }
 
     nav ul li a {
         line-height: 2.5;
+        font-size: 0.75rem;
     }
 
     header,
