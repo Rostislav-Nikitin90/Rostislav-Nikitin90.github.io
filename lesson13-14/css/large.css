@@ -1,0 +1,70 @@
+/* This is the CSS styling for the desktop version */
+@media only screen and (min-width: 1025px) {  
+    body {
+        margin: 0px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .headings {
+        margin: 0px 0px 5px 0px;
+    }
+
+    .headings h1 {
+        font-size: 40px;
+    }
+
+    header img {
+        width: 96px;
+        height: auto;
+    }
+
+    .motto {
+        font-size: 1rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: unset;
+        border-radius: 0px;
+    }
+
+    nav button {display: none;}
+        
+    nav ul.hide {display: block;}
+        
+    nav ul li {
+        float: left;
+    }
+        
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    nav ul li:nth-child(1) {
+        border-right: 1px solid rgba(245, 207, 135, 0.6);
+    }
+
+    nav ul li:nth-child(2) {
+        border-right: 1px solid rgba(245, 207, 135, 0.6);
+    }
+
+    nav ul li:nth-child(3) {
+        border-right: 1px solid rgba(245, 207, 135, 0.6);
+    }
+
+    nav ul li:nth-child(4) {
+        border-right: 1px solid rgba(245, 207, 135, 0.6);
+    }
+
+    main {
+        max-width: 960px;
+        margin: 20px auto;
+        position: relative;
+    }
+    
+    footer {
+        border-radius: 0px;
+    }
+
+} 

@@ -1,0 +1,185 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* This is the CSS styling for the mobile version */
+body {
+	background-color: #9387A0;
+	padding: 0px;
+	margin: 5px;
+	text-shadow: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 400;
+	color: #170030;
+	margin: 0px;
+}
+
+h2 {
+	color: #f5cf87;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #433156;
+	padding: 0px 18px;
+}
+
+header {
+	background-color: #fefefe;
+	padding: 5px 0 0px 0px;
+	margin: 10px 0px;
+	display: grid;
+	grid-template-columns: 65px auto;
+	grid-template-rows: 65px 1fr;
+	column-gap: 15px;
+	row-gap: 15px;
+}
+
+header img {
+	width: 64px;
+	height: auto;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.headings {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+div.motto {
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 6.4px;
+	color: #170030;
+	padding: 0px 0px 22px 1.9px;
+}
+
+nav button {
+    margin: .3rem 3%;
+    background-color: transparent;
+    border: none;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+	letter-spacing: 0.5px;
+    color: #f5cf87;
+}
+
+nav button:hover {
+	cursor: pointer;
+}
+
+nav {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	text-align: center;
+	background-color: #170030;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #f5cf87;
+	border-top: 1px solid rgba(245, 207, 135, 0.6);
+}
+
+nav ul li.active a {
+	background-color: rgba(245, 207, 135, 0.9); 
+	color: #170030;
+}
+
+nav ul li a:hover {
+	background-color: rgba(245, 207, 135); 
+	color: #170030;
+	border: rgba(23, 0, 48, 0.6);
+}
+
+nav ul.hide {display: none;}
+
+.banner-heading {
+	background-color: none;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin: 0px;
+	padding: 5px 33px 8px 33px;
+}
+
+.banner-box {
+   background-color: rgba(23, 0, 48, 0.5);
+   text-align: center;
+   margin: 12px;
+   border: 1px solid black;
+}
+
+.home-page-banner-img {
+	background-image:url('home-page-banner-img-small.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
+	background-color: #F0FFFF;
+	margin: 0px;
+    padding: 0px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+footer p {
+	line-height: 1.6;
+	margin: 1px 0px;
+	padding: 0px 18px 0px 18px;
+}
+
+footer section a {
+	max-width: 24px;
+	max-height: 24px;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
