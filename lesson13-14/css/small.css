@@ -15,13 +15,14 @@ body {
 }
 
 img {
-    display: block;
+	display: block;
     max-width: 100%;
     height: auto;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Oswald', 'Open Sans', sans-serif;
+	letter-spacing: 1px;
 }
 
 h1 {
@@ -43,9 +44,10 @@ p {
 	font-family: 'PT Sans', 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 1.6;
+	text-align: left;
+	line-height: 1.5;
 	color: #433156;
-	padding: 0px 18px;
+	margin: 0px 0px 16px 0px;
 }
 
 header {
@@ -130,29 +132,223 @@ nav ul li a:hover {
 
 nav ul.hide {display: none;}
 
+.home-page-banner {
+    position: relative;
+}
+
+.banner-box {
+	position: absolute;
+	top: 1px;
+	background-color: rgba(23, 0, 48, 0.5);
+	text-align: center;
+	margin: 12px;
+ }
+
 .banner-heading {
-	background-color: none;
 	font-size: 40px;
 	font-weight: bold;
-	letter-spacing: 1px;
 	line-height: 1.5;
 	margin: 0px;
 	padding: 5px 33px 8px 33px;
 }
 
-.banner-box {
-   background-color: rgba(23, 0, 48, 0.5);
-   text-align: center;
-   margin: 12px;
-   border: 1px solid black;
+.upcoming-events {
+	text-align: center;
+	background-color: #fefefe;
+	color: #170030;
+	padding: 5px 12px 5px 12px;
 }
 
-.home-page-banner-img {
-	background-image:url('home-page-banner-img-small.jpg') no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+.upcoming-events-heading, .partners-heading {
+	font-weight: 400;
+	margin: 24px 0px 15px 0px;
+}
+
+.event-box1 {
+    background-color: #f5cf87;
+	padding: 10px;
+}
+
+main section.upcoming-events div.event-box1 h3 {
+	font-size: 30px;
+	line-height: 1.4;
+	color: #fefefe;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.event-box2 {
+	background-color: #9387A0;
+	margin: 40px 0px 0px 0px;
+	padding: 10px;
+}
+
+main section.upcoming-events div.event-box2 h3 {
+	font-size: 30px;
+	line-height: 1.4;
+	color: #170030;
+	text-shadow: 2px 2px 4px #fefefe;
+}
+
+.event-location {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4;
+	margin: 5px 0px 7px 0px;
+}
+
+.event-date {
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration-line: underline;
+	color: #170030;
+	margin: 0px 0px 7px 0px;
+}
+
+.about-us {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	background-color: #fefefe;
+	margin: 60px 0px 0px 0px;
+	padding: 12px;
+}
+
+.home-page-budva-img {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.about-us-heading {
+	grid-column: 1/2;
+	grid-row: 2/3;
+    font-weight: 400;
+	color: #170030;
+	margin: 14px 0px 7px 0px;
+}
+
+.about-budva-chamber {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	margin: 0px 0px 8px 0px;
+}
+
+.article-button {
+	grid-column: 1/2;
+	grid-row: 4/5;
+	max-width: 145px;
+	height: auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
+	color: #170030;
+	background-color : #f5cf87;
+	border: none;
+	border-radius: 5px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+    cursor: pointer;
+}
+
+.article-button:hover {
+	text-decoration: none;
+	color: #f5cf87;
+	background-color: #170030;
+	border: none;
+	border-radius: 5px;
+}
+
+.partners {
+	background-color: #fefefe;
+	margin: 60px 0px 0px 0px;
+	padding: 12px;
+}
+
+.partners-heading {
+	text-align: center;
+	color: #170030;
+	margin: 16px 0px 0px 0px;
+}
+
+.company-ad {
+	display: block;
+}
+
+.company-ad a {
+    text-decoration: none;
+}
+
+.company-2, .company-3, .company-4 {
+    margin: 40px 0px 0px 0px;
+	border: 1px solid #9387A0;
+}
+
+.company-1 {
+	margin: 5px 0px 0px 0px;
+	border: 1px solid #9387A0;
+}
+
+.company-image-1, .company-image-2, .company-image-3, .company-image-4 {
+	margin: 0 auto;
+}
+
+.company-figcaption1, .company-figcaption2, .company-figcaption3, .company-figcaption4 {
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #433156;
+	padding: 0px 5px 5px 5px;
+}
+
+.home-page-join-banner {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row: auto;
+	margin: 60px 0px 0px 0px;
+}
+
+.home-page-join-banner-img {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.home-page-join-banner-box {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-color: rgba(23, 0, 48, 0.5);
+	text-align: center;
+	margin: 12px;
+ }
+
+.join-banner-heading {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #fefefe;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 33px 8px 33px;
+}
+
+.join-button {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
+	color: #170030;
+	background-color : #f5cf87;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+    cursor: pointer;
+}
+
+.join-button:hover {
+	text-decoration: none;
+	color: #f5cf87;
+	background-color: #170030;
+	border: none;
+	border-radius: 5px;
 }
 
 footer {
@@ -166,9 +362,8 @@ footer {
 }
 
 footer p {
-	line-height: 1.6;
 	margin: 1px 0px;
-	padding: 0px 18px 0px 18px;
+	padding: 12px 12px 0px 12px;
 }
 
 footer section a {
@@ -176,10 +371,160 @@ footer section a {
 	max-height: 24px;
 }
 
+footer em {
+	font-style: normal;
+	color:#433156;
+	padding: 0px 12px 12px 12px;
+}
+
+section.contact-info p {
+    color: #f5cf87; 
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.contact-info {
+	display: grid;
+	grid-template-columns: 33px 33px 33px 33px auto;
+	grid-template-rows: auto auto auto auto auto 60px;
+	column-gap: 10px;
+	background-color: #170030;
+	padding: 12px;
+}
+
+.contact-info-heading {
+	grid-column: 1/6;
+	grid-row: 1/2;
+	font-weight: 400;
+	color: #f5cf87;
+	margin: 14px 0px 24px 0px;
+}
+
+.budvachamber-heading {
+	grid-column: 1/6;
+	grid-row: 2/3;
+	font-size: 18px;
+	font-weight: 400;
+	color: #f5cf87;
+	margin: 0px 0px 12px 0px;
+}
+
+.address-icon {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	max-width: 24px;
+	height: auto;
+	margin: 10px 0px 0px 0px;
+}
+
+.address {
+	grid-column: 2/6;
+	grid-row: 3/4;
+}
+
+.email-icon {
+	grid-column: 1/2;
+	grid-row: 4/5;
+	max-width: 24px;
+	height: auto;
+}
+
+.email {
+	grid-column: 2/6;
+	grid-row: 4/5;
+}
+
+.phone-icon {
+	grid-column: 1/2;
+	grid-row: 5/6;
+	max-width: 24px;
+	height: auto;
+	margin: 8px 0px 0px 0px;
+}
+
+.phone {
+	grid-column: 2/6;
+	grid-row: 5/6;
+}
+
+.linkedin-icon {
+	grid-column: 1/2;
+	grid-row: 6/7;
+	max-width: 32px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+}
+
+.pinterest-icon {
+	grid-column: 2/3;
+	grid-row: 6/7;
+	max-width: 32px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+}
+
+.twitter-icon {
+	grid-column: 3/4;
+	grid-row: 6/7;
+	max-width: 32px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+}
+
+.youtube-icon {
+	grid-column: 4/6;
+	grid-row: 6/7;
+	max-width: 32px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+}
+
+/* This is the CSS styling for the mobile version -	iPhone 5/SE */
+@media (min-width: 281px) and (max-width: 320px) {
+	.banner-heading {
+		font-size: 35px;
+		line-height: 1.4;
+		margin: 0px;
+		padding: 5px 28px 8px 28px;
+	}
+}
+
+/* This is the CSS styling for the mobile version - Galaxy Fold */
+@media (max-width: 280px) {
+    .banner-box {
+		margin: 10px;
+	 }
+
+	.banner-heading {
+		font-size: 30px;
+		line-height: 1.4;
+		margin: 0px;
+		padding: 5px 28px 8px 28px;
+	}
+
+	.article-button {
+		grid-column: 1/2;
+		grid-row: 4/5;
+		max-width: 125px;
+		height: auto;
+		padding: 7px;
+	}
+
+	.join-banner-heading {
+		font-size: 27px;
+		margin: 0px;
+	}
+
+	.join-button {
+		font-size: 17px;
+		padding: 7px;
+	}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
 }
