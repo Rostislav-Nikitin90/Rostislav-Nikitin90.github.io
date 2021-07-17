@@ -5,15 +5,46 @@
         padding: 5px 0px 0px 0px;
     }
 
+    header {
+        display: grid;
+        grid-template-columns: 121px auto auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 0px;
+        row-gap: 0px;;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .logo-box {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    
+    .headings {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        padding: 15px 0px 0px 0px;
+    }
+
+    nav.clearfix {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
     header img {
         width: 96px;
         height: auto;
+        margin: 0px auto;
+    }
+
+    .div.motto {
+        padding: 0px 0px 0px 1.9px;
     }
     
     nav {
-        display: flex;
-        flex-direction: unset;
+        display: inline-block;
+        background-color: #fefefe;
         border-radius: 0px;
+        box-shadow: none;
     }
 
     nav button {display: none;}
@@ -25,16 +56,258 @@
     }
         
     nav ul li a {
+        background-color: #170030;
         border: none;
         padding: .6rem 1rem;
     }
 
     main {
-        max-width: 560px;
-        margin: 20px auto;
+        display: grid;
+        grid-template-columns: auto 560px auto;
+        grid-template-rows: auto auto auto auto auto;
     } 
 
+    .home-page-banner {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .upcoming-events {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .about-us {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .partners {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .home-page-join-banner {
+        grid-column: 1/4;
+        grid-row: 5/6;
+        margin: 0px;
+    }
+
+    .banner-box {
+        margin: 38px 0px 38px 0px;
+     }
+
+    .banner-heading {
+        font-size: 52px;
+        padding: 36px 10px 36px 10px;
+    }
+
+    .home-page-banner {
+        display: grid;
+        grid-template-columns: auto 560px auto;
+        grid-template-rows: auto;
+    }
+
+    .home-page-banner-img {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .banner-box {
+        grid-column: 2/3;
+        grid-row: 1/2; 
+    }
+
+    .upcoming-events {
+        text-align: center;
+        padding: 24px;
+    }
+
+    .upcoming-events-heading {
+        margin: 0px 0px 15px 0px;
+    }
+
+    .event1 {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 10px;
+    }
+
+    .event-box1 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+
+    div.event1 h4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    div.event1 h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 14px 0px 14px 0px;
+    }
+
+    div.event1 p {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0px;
+    }
+
+    main section.upcoming-events div.event-box1 h3 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 0px;
+    }
+
+    .event2 {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 10px;
+        margin: 42px 0px 0px 0px;
+    }
+
+    .event-box2 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin: 0px;
+    }
+
+    div.event2 h4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    div.event2 h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 14px 0px 14px 0px;
+    }
+
+    div.event2 p {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0px;
+    }
+
+    main section.upcoming-events div.event-box2 h3 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 0px;
+    }
+
+    .home-page-budva-img {
+        margin: 0px auto;
+    }
+
+    .about-us {
+        margin: 40px 0px 0px 0px;
+        padding: 24px 24px 14px 24px;
+    }
+
+    .partners {
+        padding: 24px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .partners-heading {
+        margin: 0px;
+    }
+
+    .company-ad {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 15px 0px 0px 0px;
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+
+    .company-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    .company-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    .company-3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 0px;
+    }
+
+    .company-4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 0px;
+    }
+
+    .company-figcaption1, .company-figcaption2, .company-figcaption3, .company-figcaption4 {
+        padding: 0px 10px 10px 10px;
+    }
+
+    .home-page-join-banner {
+        display: grid;
+        grid-template-columns: auto 560px auto;
+        grid-template-rows: auto;
+    }
+
+    .home-page-join-banner-img {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .home-page-join-banner-box {
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        margin: 24px 0px 24px 0px;
+    }
+
+    .join-banner-heading {
+        font-size: 38px;
+        padding: 10px 33px 8px 33px;
+    }
+
+    .join-button {
+        position: relative;
+        top: 15px;
+        padding: 15px;
+    }
+
     footer {
+        display: grid;
+        grid-template-columns: auto 560px auto;
+        grid-auto-rows: auto auto;
         border-radius: 0px;
+        background-color: #170030;
+    }
+
+    .contact-info {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 24px;
+    }
+
+    .contact-info-heading {
+        margin: 0px 0px 24px 0px;
+    }
+
+    .address-icon, .phone-icon {
+        margin: 0px;
+    }
+
+    .website-info {
+        grid-column: 1/4;
+        grid-row: 2/3;
     }
 }
