@@ -7,28 +7,28 @@
 
     header {
         display: grid;
-        grid-template-columns: 121px auto auto;
+        grid-template-columns: 174px 121px auto auto 194px;
         grid-template-rows: auto auto auto;
         column-gap: 0px;
         row-gap: 0px;;
-        padding: 0px;
+        padding: 5px 0px 0px 0px;
         margin: 0px auto;
     }
 
     .logo-box {
-        grid-column: 1/2;
+        grid-column: 2/3;
         grid-row: 1/4;
     }
 
     .headings {
-        grid-column: 2/3;
+        grid-column: 3/4;
         grid-row: 1/4;
         padding: 15px 0px 0px 0px;
         margin: 0px;
     }
 
     nav.clearfix {
-        grid-column: 3/4;
+        grid-column: 4/5;
         grid-row: 2/3;
     }
 
@@ -47,7 +47,7 @@
     }
 
     nav {
-        display: inline-block;
+        display: flex;
         border-radius: 0px;
         box-shadow: none;
         border-radius: 0px;
@@ -359,6 +359,7 @@
         grid-column: 2/3;
         grid-row: 1/2; 
         margin: 24px 0px 24px 0px;
+        z-index: 1;
     }
 
     .join-banner-heading {
