@@ -146,7 +146,7 @@
     }
 
     .upcoming-events-heading {
-        margin: 0px 0px 15px 0px;
+        margin: 0px 0px 20px 0px;
     }
 
     .event1 a, .event2 a {
@@ -157,14 +157,14 @@
         display: grid;
         grid-template-columns: 200px auto;
         grid-template-rows: auto auto auto;
-        column-gap: 10px;
+        column-gap: 7px;
     }
 
     .event-box1 {
         grid-column: 1/2;
         grid-row: 1/4;
         margin: 0px;
-        padding: 5px;
+        padding: 7px;
     }
 
     div.event1 h4 {
@@ -186,7 +186,7 @@
     }
 
     main section.upcoming-events div.event-box1 h3 {
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 2px;
         margin: 0px;
     }
@@ -195,7 +195,7 @@
         display: grid;
         grid-template-columns: 200px auto;
         grid-template-rows: auto auto auto;
-        column-gap: 10px;
+        column-gap: 7px;
         margin: 0px;
     }
 
@@ -203,7 +203,7 @@
         grid-column: 1/2;
         grid-row: 1/4;
         margin: 0px;
-        padding: 5px;
+        padding: 7px;
     }
 
     div.event2 h4 {
@@ -225,7 +225,7 @@
     }
 
     main section.upcoming-events div.event-box2 h3 {
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 2px;
         margin: 0px;
     }
@@ -234,7 +234,7 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        column-gap: 15px;
+        column-gap: 33px;
     }
 
     .upcoming-events-heading {
@@ -261,8 +261,34 @@
     }
 
     .about-us {
+        display: grid;
+        grid-template-columns: auto 437px;
+        grid-template-rows: auto auto auto;
         margin: 40px 0px 0px 0px;
         padding: 24px 24px 14px 24px;
+    }
+
+    .home-page-budva-img {
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+
+    .about-us-heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0px 0px 7px 0px;
+    }
+
+    .about-budva-chamber {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .article-button {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        z-index: 1;
     }
 
     .partners {
@@ -274,13 +300,20 @@
         margin: 0px;
     }
 
+    figure:hover {
+        border: 1px solid #170030;
+    }
+
+    figure:hover figcaption {
+        color: #170030;
+    }
+
     .company-ad {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         margin: 15px 0px 0px 0px;
-        column-gap: 18px;
-        row-gap: 18px;
+        column-gap: 6px;
     }
 
     .company-1 {
@@ -296,14 +329,14 @@
     }
 
     .company-3 {
-        grid-column: 1/2;
-        grid-row: 2/3;
+        grid-column: 3/4;
+        grid-row: 1/2;
         margin: 0px;
     }
 
     .company-4 {
-        grid-column: 2/3;
-        grid-row: 2/3;
+        grid-column: 4/5;
+        grid-row: 1/2;
         margin: 0px;
     }
 
@@ -318,7 +351,8 @@
     }
 
     .home-page-join-banner-img {
-        display: none;
+        grid-column: 1/4;
+        grid-row: 1/2; 
     }
 
     .home-page-join-banner-box {
@@ -328,7 +362,7 @@
     }
 
     .join-banner-heading {
-        font-size: 38px;
+        font-size: 40px;
         padding: 10px 33px 8px 33px;
     }
 

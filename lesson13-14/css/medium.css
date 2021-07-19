@@ -220,6 +220,14 @@
         margin: 0px;
     }
 
+    figure:hover {
+        border: 1px solid #170030;
+    }
+
+    figure:hover figcaption {
+        color: #170030;
+    }
+
     .company-ad {
         display: grid;
         grid-template-columns: 1fr 1fr;
