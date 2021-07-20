@@ -50,6 +50,7 @@
 
     div.motto {
         font-size: 1rem;
+        letter-spacing: 7.6px;
     }
 
     nav {
@@ -87,7 +88,6 @@
     nav ul li:nth-child(4) {
         border-right: 1px solid rgba(245, 207, 135, 0.6);
     }
-
 
     main {
         display: grid;
@@ -240,7 +240,7 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        column-gap: 33px;
+        column-gap: 47px;
     }
 
     .upcoming-events-heading {
@@ -403,6 +403,255 @@
     .website-info {
         grid-column: 1/4;
         grid-row: 2/3;
+    }
+
+    /* CSS Styling - Budva Page */
+
+    .header-budva-page {
+        display: grid;
+        grid-template-columns: 174px 121px auto auto 194px;
+        grid-template-rows: auto auto auto;
+        column-gap: 0px;
+        row-gap: 0px;;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header-budva-page .logo-box {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .header-budva-page .headings {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        padding: 15px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .header-budva-page nav.clearfix {
+        grid-column: 4/5;
+        grid-row: 2/3;
+        margin: 0px;
+    }
+
+    .header-budva-page .headings h1 {
+        font-size: 40px;
+    }
+
+    .header-budva-page img {
+        width: 96px;
+        height: auto;
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .header-budva-page .headings div.motto {
+        font-size: 1rem;
+    }
+    
+    main.budva-page-main {
+        display: grid;
+        grid-template-columns: auto 960px auto;
+        grid-template-rows: auto auto auto auto;
+        z-index: 1;
+    } 
+
+    main.budva-page-main .budva-page-banner {
+        grid-column: 1/4;
+        grid-row: 1/5;
+    }
+
+    main.budva-page-main .upcoming-events {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 186px 0px 0px 0px;
+    }
+
+    main.budva-page-main .history-budva  {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    main.budva-page-main .attractions-budva {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .budva-page-banner {
+        display: grid;
+        grid-template-columns: auto 960px auto;
+        grid-template-rows: auto;
+    }
+
+    .budva-page-banner-img {
+        grid-column: 1/4;
+        grid-row: auto;
+        z-index: -1;
+    }
+
+    .budva-page-banner-box{
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        margin: 38px 0px 38px 0px;
+    }
+
+    main.budva-page-main section.upcoming-events .event1 {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 7px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event1 div.town-event-box1 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event1 h4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event1 h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 10px 0px 5px 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event1 p {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event1 div.town-event-box1 h3 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        line-height: 1.4;
+        margin: 26px 0px 19px 0px;
+    }
+
+    main.budva-page-main section.upcoming-events .event2 {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: auto auto auto;
+        column-gap: 7px;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event2 div.town-event-box2  {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event2 h4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event2 h5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 10px 0px 5px 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event2 p {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0px;
+    }
+
+    main.budva-page-main section.upcoming-events div.event2 div.town-event-box2 h3 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        line-height: 1.4;
+        margin: 26px 0px 19px 0px;
+    }
+
+    .history-budva-img, .attractions-budva-img {
+        margin: 0px auto;
+    }
+
+    .history-budva {
+        display: grid;
+        grid-template-columns: auto 437px;
+        grid-template-rows: auto auto auto;
+        margin: 40px 0px 0px 0px;
+        padding: 24px 24px 14px 24px;
+    }
+
+    .history-budva-img {
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+
+    .budva-history-heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0px 0px 7px 0px;
+    }
+
+    .about-budva-history {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .history-budva .article-button {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        z-index: 1;
+    }
+
+    .attractions-budva {
+        display: grid;
+        grid-template-columns: auto 437px;
+        grid-template-rows: auto auto auto auto auto;
+        margin: 40px 0px 40px 0px;
+        padding: 24px 24px 14px 24px;
+    }
+
+    .attractions-budva-img {
+        grid-column: 2/3;
+        grid-row: 1/5;
+    }
+
+    .budva-attractions-heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0px 0px 7px 0px;
+    }
+
+    .attractions-budva-p1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .attractions-budva-p2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .attractions-budva-p3 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .budva-page-article-button {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        z-index: 1;
     }
 
 } 
