@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budva Page | Budva Chamber</title>
+    <meta name="author" content="Rostislav Nikitin">
+    <meta name="description"
+        content="Budva page of the future budvachamber.org website that contains a header, navigation bar, main content section, and footer.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header class="header-budva-page">
+        <div class="weather-info">
+            <p>Weather</p>
+        </div>
+        <div class="logo-box"><a href="#"><img class="logo-image" src="images/logo-budva-chamber96.png"
+                    alt="Logo Image."></a></div>
+        <section class="headings">
+            <h1>BUDVA</h1>
+            <div class="motto">CHAMBER</div>
+        </section>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="menu" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Budva</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="budva-page-banner">
+            <picture class="budva-page-banner-img">
+                <source media="(max-width: 767px)" srcset="images/budva-page-banner-img-small.jpg">
+                <source media="(max-width: 1024px)" srcset="images/budva-page-banner-img-medium.jpg">
+                <img src="images/budva-page-banner-img-large.jpg" alt="budva page banner">
+            </picture>
+            <div class="budva-page-banner-box">
+                <h2 class="banner-heading">BUDVA</h2>
+            </div>
+        </div>
+        <section class="upcoming-events">
+            <h3 class="upcoming-events-heading">Upcoming Town Events</h3>
+            <div class="event1">
+                <div class="town-event-box1">
+                    <h3>Sea Dance Festival 2021</h3>
+                </div>
+                <h4 class="event-location">Buljarica Beach, Budva, Montenegro</h4>
+                <h5 class="event-date">27 - 29 Aug 2021</h5>
+                <a href="https://www.seadancefestival.me/en/" target="_blank">
+                    <p>The 7th edition of Sea Dance Festival will be held on...
+                    </p>
+                </a>
+            </div>
+
+            <div class="event2">
+                <div class="town-event-box2">
+                    <h3>Petrovac Jazz Festival</h3>
+                </div>
+                <h4 class="event-location">Petrovac, Budva Municipality, Montenegro</h4>
+                <h5 class="event-date">03 - 06 Sep 2021</h5>
+                <a href="https://www.festivalfinder.eu/festivals/petrovac-jazz-festival-1/" target="_blank">
+                    <p>Petrovac Jazz Festival - Montenegro is an annual multi-day music festival held...
+                    </p>
+                </a>
+            </div>
+        </section>
+        <div class="history-budva">
+            <picture class="history-budva-img">
+                <source media="(max-width: 767px)" srcset="images/budva-page-history-img-small.jpg">
+                <source media="(max-width: 1024px)" srcset="images/budva-page-history-img-medium.jpg">
+                <img src="images/budva-page-history-img-large.jpg" alt="budva page - budva oldtown image">
+            </picture>
+            <h3 class="budva-history-heading">History</h3>
+            <p class="about-budva-history">Budva, as one of the oldest cities on the Adriatic, was founded more than
+                2,500 years ago. Along with its hinterland, Budva is rich in cultural heritage, especially
+                archaeological (land and underwater), architectural, and intangible cultural heritage as well. Many
+                ancient writers had written about Budva: Sophocles, Euripides, Pseudo-Scylax, as well as Philo of
+                Byblos, who told the legend regarding the origin of Budva - a story about Cadmus and Harmony. After the
+                rule of the Encheleans, and during the Hellenistic and Roman period, Budva became an important center,
+                as evidenced by the findings from ancient necropolises discovered in 1938, 1956-57, and in 1981-82. The
+                Statute of Budva was created in the Middle Ages, and the City Walls of Budva, its organization and
+                fortification of the city, can testify about the rule of the Venetian Republic over Budva (1442-1797).
+                After the Venetian Republic, Budva was ruled by the Austro-Hungarian Empire. France and Russia ruled for
+                a very short period of time, and after them, for almost a century, Budva was ruled by the
+                Austro-Hungarian Empire again until the liberation in 1918.</p><a
+                href="https://www.europeanheritagedays.com/story/53e08/Legend-of-the-Rise-and-the-History-of-Budva"
+                target="_blank" class="article-button">Read full article</a>
+        </div>
+        <div class="attractions-budva">
+            <picture class="attractions-budva-img">
+                <source media="(max-width: 767px)" srcset="images/budva-page-modern-budva-img-small.jpg">
+                <source media="(max-width: 1024px)" srcset="images/budva-page-modern-budva-medium.jpg">
+                <img src="images/budva-page-modern-budva-large.jpg" alt="budva page - budva at present image">
+            </picture>
+            <h3 class="budva-attractions-heading">Present</h3>
+            <p class="attractions-budva-p1">Once a small and quiet coastal town, today, Budva is a metropolis of
+                Montenegrin tourism and one of the loudest and most packed towns at the Montenegrin coast during the
+                summer. Its life began on the headland two and a half millennia ago and has poured out of the ramparts
+                towards luxurious yachts, new buildings, restaurants, bars, and nightclubs where amazing fun awaits.
+                Budva has its own Hawaii – an island opposite the city with beautiful beaches, ice cold refreshments and
+                seafood specialties.</p>
+
+            <p class="attractions-budva-p2">In the evening, on the promenade along the beach you will be overwhelmed by
+                the loud music that comes from the cafes, the laughter and screams of children from nearby amusement
+                parks, the scent of the sea mixed with the aroma of delicious barbeque, and beams of light from the
+                disco that stroll through the sky. Budva is a big light show.</p>
+
+            <p class="attractions-budva-p3">Budva seems to lead a double life – one in the old, and the other in the new
+                part of the city. Bordered by the high ramparts and decorated with the architecture, dominantly
+                Venetian, the Old Town guards historical and cultural treasures – Roman necropolis and an altar, antique
+                pylons, pre-Christian basilica and many churches. It contains the open and boiling stage of the “Theater
+                City”; literature evenings and concerts at the Poet’s Square, and exhibitions in the city gallery take
+                place every summer. Outside the old town, the new city is expanding and the number of inhabitants is
+                rising.</p><a href="https://www.visit-montenegro.com/destinations/budva/"
+                target="_blank" class="budva-page-article-button">Read full article</a>
+        </div>
+    </main>
+    <footer>
+        <section class="contact-info">
+            <h3 class="contact-info-heading">Contact Information</h3>
+            <h4 class="budvachamber-heading">Budva Chamber of Commerce</h4>
+            <img class="address-icon" src="images/address-icon.png" alt="address icon beige color">
+            <p class="address">Mediteranska 2, P.O.BOX 44, Budva, 85 310, Montenegro</p>
+            <img class="email-icon" src="images/email-icon.png" alt="email icon beige color">
+            <p class="email">info@budvachamber.com</p>
+            <img class="phone-icon" src="images/phone-icon.png" alt="phone icon beige color">
+            <p class="phone">999 999 9999</p>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin-icon"
+                    src="images/linkedin-icon.png" alt="small linkedin icon"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img class="pinterest-icon"
+                    src="images/pinterest-icon.png" alt="small pinterest icon"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img class="twitter-icon"
+                    src="images/twitter-icon.png" alt="small twitter icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img class="youtube-icon" src="images/youtube-icon.png"
+                    alt="small youtube icon"></a>
+        </section>
+        <div class="website-info">
+            <p class="website-info-content">&copy; Budva Chamber | Rostislav Nikitin</p>
+            <span id="date"></span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/budvachamber-script.js"></script>
+</body>
+
+</html>

@@ -138,7 +138,7 @@ nav ul li a:hover {
 
 nav ul.hide {display: none;}
 
-.home-page-banner {
+.home-page-banner, .budva-page-banner {
     position: relative;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
@@ -146,6 +146,17 @@ nav ul.hide {display: none;}
 .banner-box {
 	position: absolute;
 	top: 1px;
+	background-color: rgba(23, 0, 48, 0.5);
+	text-align: center;
+	margin: 12px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+ }
+
+ .budva-page-banner-box {
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	right: 0px;
 	background-color: rgba(23, 0, 48, 0.5);
 	text-align: center;
 	margin: 12px;
@@ -215,7 +226,7 @@ main section.upcoming-events div.event-box2 h3 {
 	margin: 12px 0px 7px 0px;
 }
 
-.about-us {
+.about-us, .history-budva {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto auto;
@@ -225,12 +236,12 @@ main section.upcoming-events div.event-box2 h3 {
 	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
-.home-page-budva-img {
+.home-page-budva-img, .history-budva-img {
 	grid-column: 1/2;
 	grid-row: 1/2;
 }
 
-.about-us-heading {
+.about-us-heading, .budva-history-heading {
 	grid-column: 1/2;
 	grid-row: 2/3;
     font-weight: 400;
@@ -238,7 +249,7 @@ main section.upcoming-events div.event-box2 h3 {
 	margin: 14px 0px 7px 0px;
 }
 
-.about-budva-chamber {
+.about-budva-chamber, .about-budva-history {
 	grid-column: 1/2;
 	grid-row: 3/4;
 	margin: 0px 0px 8px 0px;
@@ -504,6 +515,125 @@ section.contact-info p {
 
 .website-info-content {
 	color: #170030;
+}
+
+/* CSS Styling - Budva Page */
+
+.header-budva-page {
+	display: grid;
+	grid-template-columns: 65px auto;
+	grid-template-rows: 65px 1fr;
+	column-gap: 15px;
+	row-gap: 15px;
+	background-color: #fefefe;
+	padding: 0px;
+	margin: 0px;
+}
+
+.header-budva-page .weather-info {
+	display: none;
+}
+
+.header-budva-page img {
+	width: 64px;
+	height: auto;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	padding: 15px 0px 15px 0px;
+}
+
+.header-budva-page .headings {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	padding: 15px 0px 15px 0px;
+}
+
+.header-budva-page nav {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	margin: 15px 0px 0px 0px;
+}
+
+.town-event-box1 {
+	color: #f5cf87;
+    background-color: #170030;
+	padding: 10px;
+}
+
+.town-event-box2 {
+	color: #170030;
+	background-color: #f5cf87;
+	margin: 40px 0px 0px 0px;
+	padding: 10px;
+}
+
+.town-event-box1 h3, .town-event-box2 h3 {
+	font-size: 30px;
+}
+
+.attractions-budva {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto auto;
+	background-color: #fefefe;
+	margin: 60px 0px 60px 0px;
+	padding: 12px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.attractions-budva-img {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.budva-attractions-heading {
+	grid-column: 1/2;
+	grid-row: 2/3;
+    font-weight: 400;
+	color: #170030;
+	margin: 14px 0px 7px 0px;
+}
+
+.attractions-budva-p1 {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	margin: 0px 0px 12px 0px;
+}
+
+.attractions-budva-p2 {
+	grid-column: 1/2;
+	grid-row: 4/5;
+	margin: 0px 0px 12px 0px;
+}
+
+.attractions-budva-p3 {
+	grid-column: 1/2;
+	grid-row: 5/6;
+	margin: 0px 0px 8px 0px;
+}
+
+.budva-page-article-button {
+	max-width: 145px;
+	height: auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
+	color: #170030;
+	background-color : #f5cf87;
+	border: none;
+	border-radius: 5px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+    cursor: pointer;
+}
+
+.budva-page-article-button:hover {
+	text-decoration: none;
+	color: #f5cf87;
+	background-color: #170030;
+	border: none;
+	border-radius: 5px;
 }
 
 /* This is the CSS styling for the mobile version -	iPhone 5/SE */
