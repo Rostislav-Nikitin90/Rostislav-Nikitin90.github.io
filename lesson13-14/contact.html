@@ -36,12 +36,12 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="contact-page-main">
         <div class="contact-page-banner">
             <picture class="contact-page-banner-img">
                 <source media="(max-width: 767px)" srcset="images/contact-page-banner-img-small.jpg">
-                <source media="(max-width: 1024px)" srcset="images/budva-page-banner-img-medium.jpg">
-                <img src="images/budva-page-banner-img-large.jpg" alt="contact page banner">
+                <source media="(max-width: 1024px)" srcset="images/contact-page-banner-img-medium.jpg">
+                <img src="images/contact-page-banner-img-large.jpg" alt="contact page banner">
             </picture>
             <div class="contact-page-banner-box">
                 <h2 class="banner-heading">CONTACT</h2>
@@ -76,8 +76,8 @@
             <p class="position3">Secretary of the Budva Chamber</p>
         </div>
         <div class="contact-form">
-            <h3 class="contact-form-heading">Contact Form</h3>
-            <form method="get" action="thanks.html">
+            <h3 class="contact-form-heading">Contact Us</h3>
+            <form method="get" action="contact-page-form-confirmation.html">
                 <fieldset>
                     <legend class="form-description1">Contact Details</legend>
                     <label class="form-details">Full Name* <input type="text" minlength="5" pattern="[A-Za-z]+{5,100}" name="fname" required></label>
@@ -86,34 +86,21 @@
                 </fieldset>
                 
                 <fieldset>
-                    <legend class="form-description3">Comments</legend> 
-                    <label class="form-details">Message Us
+                    <legend class="form-description2">Message</legend> 
+                    <label class="form-details">Type Your Message
                     <textarea name="comments" rows="10"></textarea></label>                   
                 </fieldset>
     
                 <input type="submit" value="Send Message" class="submitBtn">
             </form>
         </div>
+        <div class="embedded-googlemap-budva">
+            <div class="map-box">
+                <p>Google Map</p>
+            </div>
+        </div>
     </main>
     <footer>
-        <section class="contact-info">
-            <h3 class="contact-info-heading">Contact Information</h3>
-            <h4 class="budvachamber-heading">Budva Chamber of Commerce</h4>
-            <img class="address-icon" src="images/address-icon.png" alt="address icon beige color">
-            <p class="address">Mediteranska 2, P.O.BOX 44, Budva, 85 310, Montenegro</p>
-            <img class="email-icon" src="images/email-icon.png" alt="email icon beige color">
-            <p class="email">info@budvachamber.com</p>
-            <img class="phone-icon" src="images/phone-icon.png" alt="phone icon beige color">
-            <p class="phone">999 999 9999</p>
-            <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin-icon"
-                    src="images/linkedin-icon.png" alt="small linkedin icon"></a>
-            <a href="https://www.pinterest.com/" target="_blank"><img class="pinterest-icon"
-                    src="images/pinterest-icon.png" alt="small pinterest icon"></a>
-            <a href="https://twitter.com/?lang=en" target="_blank"><img class="twitter-icon"
-                    src="images/twitter-icon.png" alt="small twitter icon"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img class="youtube-icon" src="images/youtube-icon.png"
-                    alt="small youtube icon"></a>
-        </section>
         <div class="website-info">
             <p class="website-info-content">&copy; Budva Chamber | Rostislav Nikitin</p>
             <span id="date"></span>

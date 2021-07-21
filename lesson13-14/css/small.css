@@ -797,7 +797,7 @@ section.contact-info p {
 
 .contact-form {
 	background-color: #fefefe;
-	margin: 60px 0px 0px 0px;
+	margin: 60px 0px 60px 0px;
 	padding: 5px 12px 12px 12px;
 }
 
@@ -808,45 +808,51 @@ section.contact-info p {
 	margin: 24px 0px 15px 0px;
 }
 
-form {
-	margin: 0px 0px 20px 0px;
-}
-
 form fieldset {
 	background-color: #fefefe;
-    margin: 2rem 0;
     padding: 0px;
 	border: none;
 }
 
+div.contact-form form fieldset:nth-child(1) {
+    margin: 1.4rem 0 1rem 0;
+}
+
+div.contact-form form fieldset:nth-child(2) {
+    margin: 2rem 0 1rem 0;
+}
+
 form legend {
 	width: 100%;
-	font-size: 24px;
-    color: #fefefe;
-	background-color: #003959;
-    margin: 0;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 18px;
+    color: #f5cf87;
+	background-color: #170030;
+    margin: 0px;
     padding: 5px 18px 5px 18px;
 	border-radius: 5px 5px 0px 0px;
 }
 
 form label.form-details, form div {
     display: block;
-	margin: 0px 18px 3px 18px;
+	margin: 0px 0px 3px 0px;
     padding-top: 1rem;
     color: #170030;
     font-size: 16px;
+	font-family: 'PT Sans', 'Open Sans', sans-serif;
 }
 
 form label.form-details input, form label.form-details select {
     -webkit-appearance: none;
     display: block;
     font-size: 16px;
-    border: solid 1px #003959;
+    border: solid 1px #170030;
     border-radius: 5px;
     padding: .75rem;
-    color: #003959;
+    color: #433156;
     width: 100%;
-    background-color: #F0FFFF;
+    background-color: #ffffff;
 }
 
 form input.submitBtn {
@@ -856,7 +862,7 @@ form input.submitBtn {
     color: #170030;
     border-radius: 5px;
     padding: .75rem 1.5rem;
-    margin: 0px 18px 20px 18px;
+    margin: 0px 18px 10px 0px;
     width: 80%;
     max-width: 20rem;
 }
@@ -890,20 +896,12 @@ textarea {
 	padding: 10px;
 }
 
-form fieldset:nth-child(1) {
-	margin: 1.5rem 0;
-}
-
-form fieldset:nth-child(3) {
-	background-color: #003959;
-}
-
 .form-description1, .form-description2 {
 	border-radius: 0px;
 }
 
-.form-description3 {
-	border-radius: 0px;
+.embedded-googlemap-budva {
+	display: none;
 }
 
 /* This is the CSS styling for the mobile version -	iPhone 5/SE */
