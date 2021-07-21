@@ -741,6 +741,11 @@ section.contact-info p {
 	grid-row: 5/6;
 }
 
+.social-icon-box a {
+    max-width: 32px;
+	max-height: 32px;
+}
+
 .social-icon-box {
 	display: grid;
 	grid-template-columns: auto auto auto auto;

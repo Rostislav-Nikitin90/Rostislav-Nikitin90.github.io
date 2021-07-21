@@ -323,6 +323,7 @@
     .website-info {
         grid-column: 1/4;
         grid-row: 2/3;
+        text-align: center;
     }
 
     /* CSS Styling - Budva Page */
@@ -550,6 +551,7 @@
         grid-column: 2/3;
         grid-row: 2/3;
         padding: 24px;
+        column-gap: 0px;
     }
 
     main.contact-page-main .list-of-directors {
@@ -572,6 +574,8 @@
         grid-column: 2/4;
         grid-row: 4/5;
         padding: 24px;
+        background-color: #fefefe;
+        border-top: 1px solid #9387A0;
     }
 
     main.contact-page-main .contact-page-banner-box {
@@ -609,11 +613,78 @@
         margin: 1rem 0 1rem 0;
     }
 
-    .contact-info-content p {
+    .main.contact-page-main .contact-info-content {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto auto auto auto auto auto auto auto;
+    }
+
+    .contact-info-content-heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
         margin: 0px;
     }
 
+    .address-box {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 10px 0px 0px 0px;
+        text-decoration: underline;
+    }
+
+    .full-address {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .phone-box {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        text-decoration: underline;
+    }
+
+    .phone-number {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .email-box {
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-decoration: underline;
+    }
+
     .email-info {
-        padding: 0px 10px 0px 0px;
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .social-icon-box {
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .contact-info-content p:nth-child(2) {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .contact-info-content p:nth-child(3) {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .contact-info-content p:nth-child(4) {
+        margin: 0px;
+    }
+
+    .contact-info-content p:nth-child(5) {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .contact-info-content p:nth-child(6) {
+        margin: 0px;
+    }
+
+    .website-info-content {
+        text-align: center;
     }
 }
