@@ -1,0 +1,32 @@
+{
+    "members": [
+      {
+        "companyName": "Academy of knowledge",
+        "companyWebsite": "http://www.akademijaznanja.me/eng"
+      },
+      {
+        "companyName": "Avala Resort & Villas",
+        "companyWebsite": "https://www.avalaresort.com/"
+      },
+      {
+        "companyName": "Budva Municipality",
+        "companyWebsite": "https://budva.me/"
+      },
+      {
+        "companyName": "Budva Tourism Organization",
+        "companyWebsite": "https://www.budva.travel/"
+      },
+      {
+        "companyName": "Talas M - The Destination Company of Montenegro",
+        "companyWebsite": "https://www.talas-montenegro.com/"
+      },
+      {
+        "companyName": "Travel agency Adria Line",
+        "companyWebsite": "https://www.adrialine.me/"
+      },
+      {
+        "companyName": "VALUE.ONE Estates",
+        "companyWebsite": "https://en.value1estates.com/"
+      }
+    ]
+  }

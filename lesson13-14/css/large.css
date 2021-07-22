@@ -930,7 +930,6 @@
         padding: 0px 24px 14px 24px;
         border-left: 1px solid #9387A0;
         z-index: 1;
-        box-shadow: none;
     }
 
     main.join-page-main .join-page-photo {
@@ -940,6 +939,7 @@
         background-color: #fefefe;
         padding: 24px;
         margin: 40px 0px 40px 0px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
 
     .join-page-banner {
