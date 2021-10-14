@@ -1,0 +1,772 @@
+
+large.css
+   2:45   ×  Expected newline after "{" of a multi-line block                                                 block-opening-brace-newline-after
+   2:46   ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+   3:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+   4:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+   4:18   ×  Unexpected unit                                                                                  length-zero-no-unit              
+   5:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+   5:23   ×  Unexpected unit                                                                                  length-zero-no-unit              
+   5:27   ×  Unexpected unit                                                                                  length-zero-no-unit              
+   5:31   ×  Unexpected unit                                                                                  length-zero-no-unit              
+   6:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+   8:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+   9:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+   9:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  10:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  12:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  13:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  13:18   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  13:22   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  13:30   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  14:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  16:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  17:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  18:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  20:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  21:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  22:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  23:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  25:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  26:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  27:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  29:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  30:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  31:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  32:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  32:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  33:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  35:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  35:17   ×  Expected single space after "{" of a single-line block                                           block-opening-brace-space-after  
+  35:30   ×  Expected single space before "}" of a single-line block                                          block-closing-brace-space-before 
+  36:8    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+  37:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  37:18   ×  Expected single space after "{" of a single-line block                                           block-opening-brace-space-after  
+  37:32   ×  Expected single space before "}" of a single-line block                                          block-closing-brace-space-before 
+  38:8    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+  39:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  40:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  41:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  42:8    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+  43:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  44:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  45:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  45:18   ×  Expected a leading zero                                                                          number-leading-zero              
+  46:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  48:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  49:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  49:39   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  49:42   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  49:46   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  50:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  52:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  53:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  53:39   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  53:42   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  53:46   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  54:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  56:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  57:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  57:39   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  57:42   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  57:46   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  58:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  60:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  61:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  61:39   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  61:42   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  61:46   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  62:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  64:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  65:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  65:39   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  65:42   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  65:46   ×  Expected single space after "," in a single-line function                                        function-comma-space-after       
+  66:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  68:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  69:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  70:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  71:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  72:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  74:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  75:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  76:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  77:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+  78:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  79:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  80:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  81:6    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  82:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  83:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  85:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  85:23   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+  85:48   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+  86:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  87:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  88:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  88:6    ×  Expected newline after "}"                                                                       block-closing-brace-newline-after
+  88:9    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+  90:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  90:31   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+  90:64   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+  91:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  92:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  94:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+  95:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  96:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  97:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  97:19   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  97:23   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  98:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+  98:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  98:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  98:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+  99:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 101:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 102:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 103:6    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 104:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 105:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 106:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 106:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 107:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 109:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 110:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 111:6    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 112:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 112:19   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 112:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 112:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 113:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 115:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 116:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 117:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 118:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 120:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 121:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 122:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 123:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 123:18   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 123:22   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 123:30   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 124:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 126:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 127:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 128:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 129:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 131:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 132:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 133:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 134:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 136:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 137:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 138:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 139:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 141:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 142:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 143:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 144:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 146:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 147:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 148:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 149:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 151:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 152:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 153:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 154:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 156:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 157:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 158:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 159:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 161:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 162:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 163:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 164:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 166:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 167:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 168:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 169:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 170:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 171:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 171:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 172:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 174:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 175:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 175:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 176:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 178:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 179:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 180:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 181:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 182:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 184:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 185:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 186:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 187:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 188:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 189:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 191:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 192:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 193:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 195:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 196:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 197:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 198:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 200:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 201:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 202:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 204:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 205:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 206:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 208:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 209:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 210:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 211:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 213:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 214:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 215:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 217:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 218:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 219:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 221:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 222:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 223:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 224:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 226:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 227:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 228:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 230:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 230:17   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 230:31   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 230:45   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 230:59   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 230:73   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 231:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 232:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 234:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 234:17   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 234:31   ×  Expected newline after ","                                                                       selector-list-comma-newline-after
+ 235:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 236:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 238:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 239:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 240:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 241:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 241:19   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 242:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 242:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 242:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 242:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 243:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 244:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 245:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 246:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 247:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 248:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 248:19   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 249:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 249:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 250:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 251:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 252:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 253:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 254:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 255:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 255:19   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 256:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 256:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 256:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 256:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 257:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 258:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 259:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 260:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 261:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 262:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 262:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 262:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 262:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 263:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 264:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 265:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 266:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 267:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 268:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 268:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 268:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 268:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 269:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 270:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 271:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 272:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 273:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 274:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 274:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 274:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 274:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 275:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 276:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 277:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 278:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 279:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 280:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 280:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 280:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 280:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 281:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 282:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 283:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 284:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 285:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 286:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 286:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 286:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 286:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 287:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 288:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 289:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 290:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 291:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 292:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 292:24   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 292:28   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 292:32   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 293:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 295:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 296:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 296:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 296:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 296:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 297:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 297:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 297:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 298:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 299:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 301:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 302:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 302:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 303:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 303:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 303:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 304:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 305:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 307:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 308:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 308:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 308:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 308:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 309:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 309:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 309:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 310:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 311:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 313:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 314:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 314:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 315:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 315:48   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 315:100  ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 316:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 317:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 319:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 320:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 320:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 321:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 321:48   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 321:100  ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 322:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 323:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 325:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 326:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 326:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 327:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 327:48   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 327:100  ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 328:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 329:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 331:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 332:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 332:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 333:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 333:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 333:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 334:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 335:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 337:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 338:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 338:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 339:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 339:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 339:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 340:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 341:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 343:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 344:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 344:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 345:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 345:45   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 345:91   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 346:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 347:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 349:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 350:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 350:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 350:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 351:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 352:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 354:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 355:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 355:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 355:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 356:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 357:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 359:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 360:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 360:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 360:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 361:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 362:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 364:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 365:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 365:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 365:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 366:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 367:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 369:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 370:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 370:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 370:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 371:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 372:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 374:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 375:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 375:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 375:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 376:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 377:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 379:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 380:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 380:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 380:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 381:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 382:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 384:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 385:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 385:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 385:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 386:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 387:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 389:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 390:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 390:42   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 390:75   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 391:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 392:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 394:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 395:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 396:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 397:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 399:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 400:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 401:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 401:18   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 402:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 404:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 405:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 406:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 407:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 408:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 410:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 411:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 411:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 411:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 412:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 414:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 415:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 416:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 418:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 419:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 419:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 419:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 419:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 420:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 422:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 423:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 423:18   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 423:27   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 424:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 426:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 427:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 427:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 427:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 428:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 430:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 431:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 432:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 433:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 434:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 436:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 437:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 437:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 437:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 438:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 440:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 441:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 442:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 444:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 445:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 446:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 448:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 449:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 450:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 452:5    ×  Expected selector "div.towns section" to come before selector "div.towns section:nth-child(1)"   no-descending-specificity        
+ 452:5    ×  Expected selector "div.towns section" to come before selector "div.towns section:nth-child(2)"   no-descending-specificity        
+ 452:5    ×  Expected selector "div.towns section" to come before selector "div.towns section:nth-child(3)"   no-descending-specificity        
+ 452:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 453:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 454:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 455:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 455:23   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 455:27   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 455:31   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 456:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 458:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 459:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 460:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 461:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 463:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 464:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 465:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 466:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 468:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 469:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 470:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 471:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 473:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 474:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 475:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 476:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 478:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 479:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 480:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 481:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 483:5    ×  Unexpected duplicate selector "div.towns section img", first used at line 436                    no-duplicate-selectors           
+ 483:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 484:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 485:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 486:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 488:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 489:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 490:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 491:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 492:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 494:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 495:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 496:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 497:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 498:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 499:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 500:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 501:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 502:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 503:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 504:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 505:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 506:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 507:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 508:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 509:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 510:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 511:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 512:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 513:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 514:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 515:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 516:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 517:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 518:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 519:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 521:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 522:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 522:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 522:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 522:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 523:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 525:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 526:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 526:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 526:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 526:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 527:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 528:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 529:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 530:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 530:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 531:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 532:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 533:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 534:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 534:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 535:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 537:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 538:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 538:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 539:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 541:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 542:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 542:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 542:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 542:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 543:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 544:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 545:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 546:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 546:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 546:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 546:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 547:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 549:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 550:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 551:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 552:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 553:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 555:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 556:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 557:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 558:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 559:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 560:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 561:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 562:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 563:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 564:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 565:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 566:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 567:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 568:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 569:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 570:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 571:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 572:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 573:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 574:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 575:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 576:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 577:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 578:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 579:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 580:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 582:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 583:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 583:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 583:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 583:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 584:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 586:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 587:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 587:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 587:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 587:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 588:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 589:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 590:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 591:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 591:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 592:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 593:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 594:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 595:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 595:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 596:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 598:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 599:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 599:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 600:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 602:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 603:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 603:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 603:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 603:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 604:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 605:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 606:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 607:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 607:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 607:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 607:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 608:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 610:1    ×  Expected no more than 1 empty line                                                               max-empty-lines                  
+ 611:1    ×  Expected no more than 1 empty line                                                               max-empty-lines                  
+ 612:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 613:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 614:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 615:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 616:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 618:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 619:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 620:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 621:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 622:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 623:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 624:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 625:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 626:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 627:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 628:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 629:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 630:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 631:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 632:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 633:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 634:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 635:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 636:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 637:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 638:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 639:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 640:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 641:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 642:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 643:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 645:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 646:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 646:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 646:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 646:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 647:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 649:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 650:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 650:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 650:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 650:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 651:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 652:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 653:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 654:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 654:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 655:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 656:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 657:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 658:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 658:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 659:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 661:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 662:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 662:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 663:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 665:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 666:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 666:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 666:33   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 666:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 667:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 668:4    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 669:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 670:9    ×  Expected indentation of 4 spaces                                                                 indentation                      
+ 670:25   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 670:29   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 670:37   ×  Unexpected unit                                                                                  length-zero-no-unit              
+ 671:5    ×  Expected indentation of 2 spaces                                                                 indentation                      
+ 672:2    ×  Unexpected whitespace at end of line                                                             no-eol-whitespace                
+ 672:2    ×  Unexpected missing end-of-source newline                                                         no-missing-end-of-source-newline
+
